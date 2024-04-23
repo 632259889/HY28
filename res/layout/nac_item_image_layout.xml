@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/nac_native_item_width" android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="#ffffffff" app:cardCornerRadius="12.0dip" app:cardElevation="10.0dip">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@id/flCenter" android:layout_width="@dimen/nac_native_item_width" android:layout_height="@dimen/nac_native_item_width">
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/ivImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/nac_img_no_img" android:scaleType="centerInside" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/nacProgressBar" />
+                </FrameLayout>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:paddingLeft="@dimen/nac_margin_m" android:paddingTop="@dimen/nac_margin_m" android:paddingRight="@dimen/nac_margin_m" android:paddingBottom="@dimen/nac_margin_m" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/flCenter">
+                    <TextView android:textSize="@dimen/nac_text_size_l" android:textStyle="bold" android:textColor="@color/nac_color_black" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Title" />
+                    <TextView android:textSize="@dimen/nac_text_size_m" android:textColor="@color/nac_color_black" android:ellipsize="end" android:id="@id/tvContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nac_margin_ss" android:text="content" android:maxLines="2" />
+                    <TextView android:textSize="@dimen/nac_text_size_l" android:textColor="@color/nac_color_white" android:gravity="center" android:layout_gravity="center" android:id="@id/tvGo" android:background="@drawable/nac_btn_green_drawable" android:layout_width="@dimen/nac_bt_width" android:layout_height="@dimen/nac_bt_height" android:layout_marginTop="@dimen/nac_margin" android:layout_marginBottom="@dimen/nac_margin" android:text="我要试试" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</FrameLayout>

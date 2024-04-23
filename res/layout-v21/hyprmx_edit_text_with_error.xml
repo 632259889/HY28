@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:id="@id/hyprmx_titleView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <EditText android:textColor="@android:color/black" android:textColorHint="@color/hyprmx_edit_text_grey" android:id="@id/hyprmx_editText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" android:backgroundTint="@color/hyprmx_edit_text_grey" />
+    <TextView android:textColor="@color/hyprmx_submit_red" android:id="@id/hyprmx_errorView" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

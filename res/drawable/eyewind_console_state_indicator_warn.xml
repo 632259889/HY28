@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/eyewind_console_bg_ind_warn" />
+    <corners android:radius="@dimen/eyewind_sdk_margin" />
+</shape>

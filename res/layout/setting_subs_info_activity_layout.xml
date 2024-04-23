@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="#ff1d1f38" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ff252629" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivBack" android:padding="@dimen/app_dp_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_tab_setting_back" android:tint="@color/fw_white" />
+        <TextView android:textSize="@dimen/app_sp_18" android:textColor="@color/fw_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/subscription_instructions" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:padding="@dimen/app_dp_16" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/app_dp_16" android:textColor="@color/app_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/subscription_service" />
+        <TextView android:textSize="@dimen/app_dp_16" android:textColor="@color/app_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app_dp_16" android:text="@string/subscription_instructions_detailed" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:padding="@dimen/app_dp_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app_dp_22" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/app_dp_16" android:textColor="@color/app_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unsubscribe" />
+        <TextView android:textSize="@dimen/app_dp_16" android:textColor="@color/app_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app_dp_16" android:text="@string/unsubscribe_detailed" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView android:textSize="@dimen/app_sp_18" android:textColor="@color/app_white" android:gravity="center" android:layout_gravity="center" android:id="@id/btJump" android:background="@drawable/setting_subs_info_button_bg" android:layout_width="296.0dip" android:layout_height="48.0dip" android:layout_marginBottom="77.0dip" android:text="@string/manage_subscription" />
+</androidx.appcompat.widget.LinearLayoutCompat>

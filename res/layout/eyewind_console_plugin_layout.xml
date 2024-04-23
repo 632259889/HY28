@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:background="@drawable/eyewind_console_img_bg" android:padding="@dimen/eyewind_sdk_margin_s" android:layout_width="80.0dip" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/eyewind_console_ic_plugin_def" />
+    <TextView android:textSize="@dimen/eyewind_sdk_text_size_m" android:textColor="@color/eyewind_sdk_black" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="埋点统计" />
+</androidx.appcompat.widget.LinearLayoutCompat>

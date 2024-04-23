@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/hyprmx_next_container" android:background="@drawable/hyprmx_rounded_corner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/hyprmx_header_next_text_size" android:gravity="center" android:id="@id/hyprmx_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:contentDescription="@string/hyprmx_go_to_next_offer" />
+    <ImageView android:id="@id/hyprmx_next_chevron" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="12.0dip" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/hyprmx_chevron" android:layout_toRightOf="@id/hyprmx_next" android:layout_alignTop="@id/hyprmx_next" android:layout_alignBottom="@id/hyprmx_next" android:layout_centerVertical="true" />
+</RelativeLayout>

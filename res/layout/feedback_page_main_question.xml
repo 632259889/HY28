@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:id="@id/feedback_main_layout" android:paddingTop="@dimen/feedback_margin_small" android:paddingBottom="@dimen/feedback_margin_small" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/feedback_scene_button" android:focusable="true" android:clickable="true" android:text="@string/feedback_scene" style="@style/FeedbackTitleStyle" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/feedback_scene_indicator" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_alignTop="@id/feedback_scene_button" android:layout_alignBottom="@id/feedback_scene_button" android:layout_alignParentRight="true" app:srcCompat="@drawable/feedback_ic_question_indicator" />
+        <LinearLayout android:orientation="vertical" android:id="@id/feedback_scene" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/feedback_scene_button" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/feedback_subtype_button" android:visibility="invisible" android:layout_marginTop="@dimen/feedback_margin_normal" android:text="@string/feedback_subtype" android:layout_below="@id/feedback_scene" style="@style/FeedbackTitleStyle" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/feedback_subtype_indicator" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_alignTop="@id/feedback_subtype_button" android:layout_alignBottom="@id/feedback_subtype_button" android:layout_alignParentRight="true" app:srcCompat="@drawable/feedback_ic_question_indicator" />
+        <LinearLayout android:orientation="vertical" android:id="@id/feedback_subtype" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/feedback_subtype_button" />
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

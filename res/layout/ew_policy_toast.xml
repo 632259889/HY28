@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="14.0dip" android:textColor="@color/ew_policy_toast_text_color" android:gravity="center" android:layout_gravity="center" android:background="@drawable/ew_policy_toast_bg" android:paddingLeft="24.0dip" android:paddingTop="12.0dip" android:paddingRight="24.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="260.0dip" android:text="@string/ew_policy_auth_succeed"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

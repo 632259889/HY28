@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:layout_gravity="bottom" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/color_main" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:id="@id/pen_ruler" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pen_ruler" />
+                <ImageView android:id="@id/pen_rubber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pen_rubber" />
+                <ImageView android:id="@id/pen_paintbrushes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pen_paintbrushes" />
+                <ImageView android:id="@id/pen_pencil" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pen_pencil" />
+                <ImageView android:id="@id/pen_ocrayon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pen_ocrayon" />
+                <ImageView android:id="@id/pen_lnk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pen_lnk" />
+                <ImageView android:id="@id/pen_brush" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pen_brush" />
+                <ImageView android:id="@id/pen_oilpen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pen_oilpen" />
+                <ImageView android:id="@id/pen_watercolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pen_watercolor" />
+                <ImageView android:id="@id/pen_fountain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pen_fountain" />
+                <ImageView android:id="@id/pen_dryink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pen_dryink_vip" />
+                <ImageView android:id="@id/pen_inkjet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pen_inkjet_vip" />
+                <ImageView android:id="@id/pen_greasepaint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pen_greasepaint_vip" />
+                <ImageView android:id="@id/pen_magic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pen_magic_vip" />
+            </LinearLayout>
+            <ImageView android:id="@id/penSettingIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_pen_icon" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </HorizontalScrollView>
+</merge>

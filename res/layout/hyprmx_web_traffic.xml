@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/hyprmx_webtraffic" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/offer_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/webtraffic_container" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <fragment android:name="com.hyprmx.android.sdk.header.WebTrafficHeaderFragment" android:id="@id/header_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+            <fragment android:name="com.hyprmx.android.sdk.footer.FooterFragment" android:id="@id/hyprmx_footer_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+            <View android:id="@id/webview_stub" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_above="@id/hyprmx_footer_fragment" android:layout_below="@id/header_fragment" android:layout_alignWithParentIfMissing="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/fullScreenVideoContainer" android:background="@android:color/white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

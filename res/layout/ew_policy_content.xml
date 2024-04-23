@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="#ffffffff" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/policy_base" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <WebView android:id="@id/ew_policy_content" android:layout_width="0.0px" android:layout_height="0.0px" android:layout_marginTop="10.0dip" app:layout_constraintBottom_toBottomOf="@id/policy_base" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/ew_policy_close" app:layout_constraintWidth_max="420.0dip" />
+    <ImageView android:id="@id/ew_policy_close" android:background="@drawable/ew_policy_close_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/ew_policy_close" app:layout_constraintRight_toRightOf="@id/policy_base" app:layout_constraintTop_toTopOf="@id/policy_base" />
+</androidx.constraintlayout.widget.ConstraintLayout>

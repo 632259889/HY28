@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/layer_top" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/layermanager_layer_top" />
+    <ImageView android:id="@id/layermanager_eye" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/layermanager_eye" />
+    <ImageView android:id="@id/layermanager_delete_area" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/layermanager_delete_area" />
+</RelativeLayout>

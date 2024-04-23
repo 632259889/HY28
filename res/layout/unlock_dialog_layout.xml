@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/app_dialog_bg" android:padding="@dimen/app_dp_16" android:layout_width="@dimen/vip_dialog_width" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="right" android:id="@id/ivClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_closs_tt" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:layout_gravity="center" android:id="@id/llAd" android:background="@drawable/unlock_dialog_bt_ad_bg" android:padding="@dimen/app_dp_8" android:layout_width="@dimen/nac_bt_width" android:layout_height="wrap_content" android:minHeight="@dimen/app_button_height">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/app_dp_8" android:src="@drawable/ic_ad_2" />
+            <TextView android:textSize="@dimen/app_text_size_m" android:textColor="#ff007948" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pan_unlock_ad" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:layout_gravity="center" android:id="@id/llVip" android:background="@drawable/unlock_dialog_bt_vip_bg" android:padding="@dimen/app_dp_8" android:layout_width="@dimen/nac_bt_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app_dp_16" android:layout_marginBottom="@dimen/app_dp_4" android:minHeight="@dimen/app_button_height">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/app_dp_8" android:src="@drawable/ic_vip" />
+            <TextView android:textSize="@dimen/app_text_size_m" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_bt_vip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

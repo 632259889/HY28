@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/eyewind_sdk_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/eyewind_sdk_text_size_l" android:textStyle="bold" android:textColor="@color/eyewind_sdk_black" android:id="@id/tvTitle" android:paddingLeft="@dimen/eyewind_sdk_margin" android:paddingTop="@dimen/eyewind_sdk_margin_s" android:paddingRight="@dimen/eyewind_sdk_margin" android:paddingBottom="@dimen/eyewind_sdk_margin_s" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="我是标题" />
+    <View android:layout_gravity="bottom" android:background="@color/eyewind_sdk_line_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <View android:layout_gravity="top" android:id="@id/viewLineTop" android:background="@color/eyewind_sdk_line_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

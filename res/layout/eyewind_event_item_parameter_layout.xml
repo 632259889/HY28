@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:background="#fff2f2f2" android:paddingLeft="@dimen/eyewind_sdk_margin" android:paddingTop="@dimen/eyewind_sdk_margin" android:paddingBottom="@dimen/eyewind_sdk_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/eyewind_sdk_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ExpandableListView android:orientation="vertical" android:id="@id/listView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="left" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="#ff4e506a" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="#ff252629" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivBack" android:padding="@dimen/app_dp_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_tab_setting_back" android:tint="@color/fw_white" />
+            <TextView android:textSize="@dimen/app_sp_18" android:textColor="@color/fw_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_title" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:visibility="gone" android:id="@id/llLogin" android:background="@drawable/setting_item_bg_round" android:padding="@dimen/app_dp_18" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/app_dp_16">
+            <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivHead" android:background="@color/fw_white" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/ic_touxiang_normal" app:riv_mutate_background="true" app:riv_oval="true" />
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_dp_16" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/app_text_size" android:textColor="@color/fw_white" android:id="@id/tvNickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_login_nickname_def" />
+                <TextView android:textSize="@dimen/app_text_size_s" android:textColor="@color/fw_white" android:id="@id/tvLoginTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app_dp_8" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="@dimen/app_dp_16" android:layout_height="@dimen/app_dp_16" android:src="@drawable/setting_icon_arrow" android:tint="#ffffffff" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:padding="@dimen/app_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:visibility="gone" android:orientation="horizontal" android:id="@id/llSubs" android:background="@drawable/setting_item_bg_top" android:padding="@dimen/app_dp_18" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_dingyue_normal" />
+                <TextView android:textSize="@dimen/app_text_size" android:textColor="@color/fw_white" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_dp_18" android:text="@string/subscription_instructions" android:layout_weight="1.0" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="@dimen/app_dp_16" android:layout_height="@dimen/app_dp_16" android:src="@drawable/setting_icon_arrow" android:tint="#ffffffff" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <View android:background="#1fffffff" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:id="@id/llFeedback" android:background="@drawable/setting_item_bg_center" android:padding="@dimen/app_dp_18" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_fankui_normal" />
+                <TextView android:textSize="@dimen/app_text_size" android:textColor="@color/fw_white" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_dp_18" android:text="@string/feedback" android:layout_weight="1.0" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="@dimen/app_dp_16" android:layout_height="@dimen/app_dp_16" android:src="@drawable/setting_icon_arrow" android:tint="#ffffffff" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <View android:background="#1fffffff" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:id="@id/llPrivacy" android:background="@drawable/setting_item_bg_center" android:padding="@dimen/app_dp_18" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_yinsizhengce_normal" />
+                <TextView android:textSize="@dimen/app_text_size" android:textColor="@color/fw_white" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_dp_18" android:text="@string/index_menu_left_privacy" android:layout_weight="1.0" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="@dimen/app_dp_16" android:layout_height="@dimen/app_dp_16" android:src="@drawable/setting_icon_arrow" android:tint="#ffffffff" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <View android:background="#1fffffff" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:visibility="gone" android:id="@id/llTerm" android:background="@drawable/setting_item_bg_center" android:padding="@dimen/app_dp_18" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_fuwutiaokuan_normal" />
+                <TextView android:textSize="@dimen/app_text_size" android:textColor="@color/fw_white" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_dp_18" android:text="@string/index_menu_left_terms" android:layout_weight="1.0" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="@dimen/app_dp_16" android:layout_height="@dimen/app_dp_16" android:src="@drawable/setting_icon_arrow" android:tint="#ffffffff" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <View android:background="#1fffffff" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:id="@id/llSync" android:visibility="gone" android:background="@drawable/setting_item_bg_bottom" android:padding="@dimen/app_dp_18" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_tongbu_normal" />
+                <TextView android:textSize="@dimen/app_text_size" android:textColor="@color/fw_white" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_dp_18" android:text="@string/setting_item_sync" android:layout_weight="1.0" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/ivSyncAnim" android:layout_width="@dimen/app_dp_16" android:layout_height="@dimen/app_dp_16" android:src="@drawable/ic_menu_tongbu_anim" android:tint="#ffffffff" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:id="@id/llLogout" android:background="@drawable/setting_item_bg_round" android:padding="@dimen/app_dp_18" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/app_dp_36">
+                <TextView android:textSize="@dimen/app_text_size" android:textColor="@color/fw_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_logout_bt" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

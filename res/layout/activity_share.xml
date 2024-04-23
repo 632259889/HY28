@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentRelativeLayout android:tag="skin:background_secondary:background" android:background="@drawable/background_secondary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/toolbar" android:tag="skin:background_toolbar:background" android:background="@drawable/background_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <ImageButton android:id="@id/back" android:tag="skin:btn_back_light:background" android:background="@drawable/btn_back_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_centerVertical="true" android:onClick="onClick" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="#ffffffff" android:gravity="center" android:tag="skin:primary:textColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@id/im" android:background="@android:color/white" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_margin="30.0dip" android:scaleType="fitCenter" android:layout_below="@id/toolbar" android:layout_centerHorizontal="true" app:layout_aspectRatio="100.0%" app:layout_widthPercent="79.99999%" />
+    <hhh.aaa.LoadingView android:layout_gravity="center" android:id="@id/progress" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerHorizontal="true" app:layout_marginTopPercent="34.000004%" />
+    <TextView android:textColor="#ffffffff" android:id="@id/hint" android:tag="skin:primary:textColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/hint_share" android:layout_below="@id/im" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:layout_below="@id/hint">
+        <ImageButton android:id="@id/google_plus" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/btn_google_plus" android:layout_weight="1.0" android:onClick="onClick" />
+        <ImageButton android:id="@id/instagram" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/btn_instagram" android:layout_weight="1.0" android:onClick="onClick" />
+        <ImageButton android:id="@id/facebook" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/btn_facebook" android:layout_weight="1.0" android:onClick="onClick" />
+        <ImageButton android:id="@id/twitter" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/btn_twiter" android:layout_weight="1.0" android:onClick="onClick" />
+        <ImageButton android:id="@id/share" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/btn_share" android:layout_weight="1.0" android:onClick="onClick" />
+    </LinearLayout>
+</androidx.percentlayout.widget.PercentRelativeLayout>

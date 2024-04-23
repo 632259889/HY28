@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/white" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:textSize="13.0sp" android:textColor="#ff332c39" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:text="@string/ewc_enter_birthday" android:drawableTop="@drawable/ewc_date" android:drawablePadding="10.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="48.0dip" android:layout_marginBottom="8.0dip">
+            <NumberPicker android:theme="@style/EwcPrivateDialog" android:id="@id/ewc_numberPicker" android:descendantFocusability="blocksDescendants" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <NumberPicker android:theme="@style/EwcPrivateDialog" android:id="@id/ewc_numberPicker2" android:descendantFocusability="blocksDescendants" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginRight="12.0dip">
+        <Button android:enabled="false" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/ewc_ok" android:background="@drawable/ewc_bg_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="146.0dip" android:minHeight="48.0dip" android:text="@android:string/ok" />
+    </FrameLayout>
+</LinearLayout>

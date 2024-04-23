@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.eyewind.feedback.internal.FeedbackMainPage android:paddingLeft="@dimen/feedback_margin_big" android:paddingTop="@dimen/feedback_margin_title_top" android:paddingRight="@dimen/feedback_margin_big" android:paddingBottom="@dimen/feedback_margin_title_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="?feedbackTextPrimaryColor" android:gravity="center" android:id="@id/feedback_title" android:layout_width="fill_parent" android:layout_height="@dimen/feedback_close_button_size" android:text="@string/feedback_title" android:lines="1" />
+    <com.eyewind.feedback.view.FeedbackIndicator android:layout_gravity="center_horizontal" android:id="@id/feedback_indicator" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_below="@id/feedback_title" />
+    <include android:id="@id/feedback_custom_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/feedback_indicator" layout="@layout/feedback_page_main_custom" />
+    <include android:id="@id/feedback_select_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/feedback_custom_layout" android:layout_alignBottom="@id/feedback_custom_layout" layout="@layout/feedback_page_main_question" />
+</com.eyewind.feedback.internal.FeedbackMainPage>

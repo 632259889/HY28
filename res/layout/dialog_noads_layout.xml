@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="#88000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:id="@id/llDialog" android:layout_width="@dimen/vip_dialog_width" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:background="@drawable/dialog_noads_bg_top" android:paddingTop="@dimen/app_margin" android:paddingBottom="@dimen/app_margin_s" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_ad" />
+                    <TextView android:textSize="@dimen/app_text_size_xx" android:textStyle="bold" android:textColor="#ff3c4663" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app_margin_s" android:text="Too many ads?" />
+                    <TextView android:textSize="@dimen/app_text_size_m" android:textColor="#ff3c4663" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app_margin_ss" android:text="Remove ads permanently now." />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat android:background="@drawable/bg_di" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:background="@drawable/dialog_noads_bg_bottom" android:paddingTop="@dimen/app_margin" android:paddingBottom="@dimen/app_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/app_text_size" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvBuy" android:background="@drawable/vip_dialog_buy_year_bg" android:layout_width="@dimen/app_button_width" android:layout_height="@dimen/app_button_height" android:text="BUY" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <ImageView android:id="@id/ivClose" android:padding="@dimen/app_margin_s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_no" android:layout_alignRight="@id/llDialog" />
+    </RelativeLayout>
+</LinearLayout>

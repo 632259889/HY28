@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <hhh.aaa.changebg.ChnageBg_ColorChooser android:gravity="center" android:id="@id/ChnageBg_ColorChooser" android:layout_width="fill_parent" android:layout_height="@dimen/tool_main_h" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/changebg_ic_resetcolor" android:paddingTop="@dimen/move_dis" android:paddingRight="@dimen/move_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/changebg_ic_resetcolor" android:layout_alignParentBottom="true" />
+            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/changebg_ic_close" android:paddingLeft="@dimen/move_dis" android:paddingTop="@dimen/move_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/changebg_ic_close" android:layout_alignParentBottom="true" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

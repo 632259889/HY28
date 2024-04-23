@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/feedback_scroll_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/feedback_user_input_text" android:layout_marginTop="@dimen/feedback_margin_small" android:text="@string/feedback_title_question" style="@style/FeedbackTitleStyle" />
+        <androidx.appcompat.widget.AppCompatEditText android:textSize="12.0sp" android:gravity="top" android:id="@id/feedback_user_input" android:layout_width="fill_parent" android:layout_height="@dimen/feedback_question_height" android:layout_marginTop="@dimen/feedback_margin_thin" android:hint="@string/feedback_hint_question" android:inputType="textMultiLine" style="@style/FeedbackEditTextStyle" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/feedback_shot_card_text" android:layout_marginTop="@dimen/feedback_margin_small" android:text="@string/feedback_title_screenshot" style="@style/FeedbackTitleStyle" />
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/feedback_screenshot_size" android:layout_marginTop="@dimen/feedback_margin_thin" android:divider="@drawable/feedback_divider_empty" android:showDividers="middle">
+            <include android:id="@id/feedback_shot_card_1" layout="@layout/feedback_shot_item" />
+            <include android:id="@id/feedback_shot_card_2" layout="@layout/feedback_shot_item" />
+            <include android:id="@id/feedback_shot_card_3" layout="@layout/feedback_shot_item" />
+            <include android:id="@id/feedback_shot_card_4" layout="@layout/feedback_shot_item" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/feedback_contact_input_text" android:layout_marginTop="@dimen/feedback_margin_small" android:text="@string/feedback_title_contact" style="@style/FeedbackTitleStyle" />
+        <androidx.appcompat.widget.AppCompatEditText android:textSize="12.0sp" android:gravity="center_vertical" android:id="@id/feedback_contact" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="@dimen/feedback_margin_thin" android:hint="@string/feedback_hint_contact" android:inputType="textEmailAddress" style="@style/FeedbackEditTextStyle" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/feedback_prev" android:layout_width="0.0dip" android:layout_marginTop="@dimen/feedback_margin_normal" android:text="@string/feedback_prev" android:layout_weight="1.0" style="@style/FeedbackPrevButtonStyle" />
+            <View android:id="@id/feedback_division" android:visibility="invisible" android:layout_width="8.0dip" android:layout_height="0.0dip" />
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/feedback_submit" android:layout_width="64.0dip" android:layout_marginTop="@dimen/feedback_margin_normal" android:text="@string/feedback_ok" android:layout_weight="1.0" style="@style/FeedbackSubmitButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

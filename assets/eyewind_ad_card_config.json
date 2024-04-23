@@ -1,0 +1,2186 @@
+{
+    "type": "adgroup",
+    "adgroup_id": "hdvjo85rdghtnp07",
+    "adgroup_type": "card",
+    "title": {
+        "ar": "تحديات جديدة",
+        "cn": "收到新的挑战",
+        "de": "Neue Herausforderungen",
+        "en": "New challenges",
+        "es": "Nuevos Desafíos",
+        "fr": "Nouveaux Défis",
+        "hi": "नई चुनौती",
+        "id": "Tantangan Baru",
+        "it": "Nuove Sfide",
+        "ja": "新チャレンジ",
+        "ko": "새 도전",
+        "pt": "Novos Desafios",
+        "ru": "Новые вызовы",
+        "th": "การท้าทายใหม่",
+        "tr": "Yeni Meydan Okumalar",
+        "vi": "Thử thách mới",
+        "zh": "收到新的挑戰",
+        "global": "New challenges"
+    },
+    "button": {
+        "ar": "جرّبها",
+        "cn": "马上试试",
+        "de": "Versuch dein Glück",
+        "en": "Try it now",
+        "es": "Pruébalo",
+        "fr": "Essayez",
+        "hi": "आजमाएं",
+        "id": "Ingin Coba",
+        "it": "Prova",
+        "ja": "やってみる",
+        "ko": "해보기",
+        "pt": "Experimente",
+        "ru": "Попробуйте",
+        "th": "อยากลองดู",
+        "tr": "Hadi dene",
+        "vi": "Tôi muốn thử",
+        "zh": "馬上試試",
+        "global": "Try it now"
+    },
+    "cdTime": 60,
+    "isOpen": true,
+    "offset": 5,
+    "maxShow": 1,
+    "loopCount": 3,
+    "closeStartDelay": 3000,
+    "configs": [
+        {
+            "pkg": "com.creative.sandbox.number.drawning.coloring",
+            "link": "https://app.adjust.com/xgw95ee",
+            "appid": "47fhhgvacmcpaju7yqbm05mf",
+            "ios_id": "1317690198",
+            "localFirst": false,
+            "adgroup_id": "hdvjo85rdghtnp07",
+            "ad_id": "ke48mxjyprqyxkrm",
+            "file_id": "6mt969gh9iwfz6gu",
+            "ad_type": "ew_card",
+            "weight": 6,
+            "locales": {
+                "global": {
+                    "caption": "No.Draw",
+                    "alternativeText": "Free digital coloring book! Novices can draw exquisite pixel paintings!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                },
+                "en": {
+                    "caption": "No.Draw",
+                    "alternativeText": "Free digital coloring book! Novices can draw exquisite pixel paintings!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                },
+                "ar": {
+                    "caption": "No.Draw",
+                    "alternativeText": "Free digital coloring book! Novices can draw exquisite pixel paintings!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                },
+                "cn": {
+                    "caption": " 数字填色书",
+                    "alternativeText": "免费的数字填色书！新手也能绘出精美像素画!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                },
+                "zh": {
+                    "caption": "數字調色書",
+                    "alternativeText": "免費的數字填色書！新手也能繪出精美像素畫！",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                },
+                "de": {
+                    "caption": "No.Draw",
+                    "alternativeText": "Kostenloses digitales Malbuch! Auch Anfänger können exquisite Pixelgemälde malen!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                },
+                "es": {
+                    "caption": "No.Draw",
+                    "alternativeText": "¡Libro digital para colorear gratis! ¡Los principiantes pueden dibujar exquisitas pinturas de píxeles!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                },
+                "fr": {
+                    "caption": "No.Draw",
+                    "alternativeText": "Livre de coloriage numérique gratuit ! Les novices peuvent dessiner d'exquises peintures enpixels!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                },
+                "hi": {
+                    "caption": "No.Draw",
+                    "alternativeText": "मुफ्त डिजिटल कलरिंग बुक! नोविक्स बेहद सुंदर पिक्सल पेंटिंग्स बना सकता है!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                },
+                "id": {
+                    "caption": "No.Draw",
+                    "alternativeText": "Buku Warna Digital Gratis! Pemula juga dapat menggambar seni piksel yang indah!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                },
+                "it": {
+                    "caption": "No.Draw",
+                    "alternativeText": "Libro digitale di colorazione gratuito! Anche i principianti possono disegnare splendididipinti di pixel!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                },
+                "ja": {
+                    "caption": "数字で塗り絵スケッチブック: No.Draw",
+                    "alternativeText": "無料の数字塗り絵！初心者でも素敵なドット絵を描ける！",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                },
+                "ko": {
+                    "caption": "숫자 별 색상 칠하기 페이지: No.Draw",
+                    "alternativeText": "무료 숫자 컬러링북! 초보자도 고화질 그림을 그릴 수 있어요!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                },
+                "pt": {
+                    "caption": "Cor por Páginas de Número: No.Draw",
+                    "alternativeText": "Livro de colorir digital gratuito! Iniciantes podem desenhar pinturas de pixel requintadas!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                },
+                "ru": {
+                    "caption": "Раскраски по номерам: No.Draw",
+                    "alternativeText": "Бесплатная цифровая книжка-раскраска! Новички могут рисовать изысканные пиксельные картины!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                },
+                "th": {
+                    "caption": "No.Draw",
+                    "alternativeText": "ฟรี! สมุดระบายสีดิจิตอล มือใหม่ก็สามารถวาดภาพพิกเซลที่สวยงามได้!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                },
+                "vi": {
+                    "caption": "No.Draw",
+                    "alternativeText": "Sách tô màu chữ miễn phí! Tân thủ cũng có thể vẽ được những bức tranh Pixel tinh tế!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                },
+                "tr": {
+                    "caption": "No.Draw",
+                    "alternativeText": "Ücretsiz dijital boyama kitabı! Acemiler özel piksel resim çizebilir!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "b6f766cb40d5d9775c099cb48b6c9415",
+                    "file_id": "6mt969gh9iwfz6gu",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/b6f766cb40d5d9775c099cb48b6c9415.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/db82167ac50c65822d0799c5ad8ede86.png"
+                }
+            }
+        },
+        {
+            "pkg": "com.inapp.cross.stitch",
+            "link": "https://app.adjust.com/9r4oak0",
+            "appid": "47fhhgvabhxfdbwlo8fp8qn8",
+            "ios_id": "1246165006",
+            "localFirst": false,
+            "adgroup_id": "hdvjo85rdghtnp07",
+            "ad_id": "yaulzsuhmqgy3v3p",
+            "file_id": "lzn2kemswdro1sue",
+            "ad_type": "ew_card",
+            "weight": 7,
+            "locales": {
+                "ar": {
+                    "caption": "Cross Stitch",
+                    "alternativeText": "يمكنك لعب كروس ستيتش على هاتفك!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                },
+                "cn": {
+                    "caption": "十字绣",
+                    "alternativeText": "导入你自己的照片来缝制十字绣！是时候放松一下了",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                },
+                "en": {
+                    "caption": "Cross Stitch",
+                    "alternativeText": "Cross stitch with your own photos, play right on your phone!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                },
+                "global": {
+                    "caption": "Cross Stitch",
+                    "alternativeText": "Cross stitch with your own photos, play right on your phone!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                },
+                "hi": {
+                    "caption": "क्रॉस सिलाई: Cross Stitch",
+                    "alternativeText": "अपनी फोटो क्रॉस स्टिच करें, सीधे अपने फोन पर खेलें!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                },
+                "fr": {
+                    "caption": "Point de croix: Cross Stitch",
+                    "alternativeText": "Faites du point de croix avec vos photos, jouez depuis sur votre téléphone !",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                },
+                "de": {
+                    "caption": "Kreuzstich: Cross Stitch",
+                    "alternativeText": "Kreuzstich mit deinen eigenen Fotos, direkt auf deinem Handy spielen!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                },
+                "es": {
+                    "caption": "Punto de cruz: Cross Stitch",
+                    "alternativeText": "¡Crea puntos de cruz con tus propias fotos, juega directamente en tu teléfono!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                },
+                "id": {
+                    "caption": "Kruistik: Cross Stitch",
+                    "alternativeText": "Ubah fotomu menjadi kruistik dan kamu bisa main dengan ponsel!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                },
+                "it": {
+                    "caption": "Punto croce: Cross Stitch",
+                    "alternativeText": "Trasforma le tue foto in un punto croce, gioca direttamente col telefono!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                },
+                "ja": {
+                    "caption": "クロスステッチ: Cross Stitch",
+                    "alternativeText": "スマホを使って手持ちの写真をクロスステッチにする！",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                },
+                "ko": {
+                    "caption": "십자수: Cross Stitch",
+                    "alternativeText": "시간 가는 줄 모르는 힐링 게임, 아름다운 사진을 업로드해 완성하세요",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                },
+                "pt": {
+                    "caption": "Ponto cruz: Cross Stitch",
+                    "alternativeText": "Crie pontos de cruz com suas próprias fotos, jogue direto no seu telefone!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                },
+                "ru": {
+                    "caption": "Вышивка крестом: Cross Stitch",
+                    "alternativeText": "Вышивайте крестиком свои собственные фотографии, играйте прямо на телефоне!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                },
+                "th": {
+                    "caption": "ครอสติช: Cross Stitch",
+                    "alternativeText": "ทำให้รูปภาพของคุณกลายเป็นครอสติชกันเถอะ ในมือถือก็เล่นได้!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                },
+                "tr": {
+                    "caption": "Kanaviçe işi: Cross Stitch",
+                    "alternativeText": "Kendi fotoğraflarınla kanaviçe işi yap, doğrudan telefonundan oyna!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                },
+                "vi": {
+                    "caption": "Thêu chữ thập: Cross Stitch",
+                    "alternativeText": "Biến ảnh của bạn thành tranh thêu chữ thập và chơi trên điện thoại.",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                },
+                "zh": {
+                    "caption": "十字繡",
+                    "alternativeText": "導入圖片轉成繡圖，手機就能玩！",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "28925f79547a87bfb13b0ffd999a6113",
+                    "file_id": "lzn2kemswdro1sue",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/28925f79547a87bfb13b0ffd999a6113.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/4979eff4f0f730e04ab6b8254b4405ad.jpg"
+                }
+            }
+        },
+        {
+            "pkg": "com.inapp.incolor",
+            "link": "https://app.adjust.com/nenar23",
+            "appid": "rew58o1139rqpj9v",
+            "ios_id": "1471087500",
+            "localFirst": false,
+            "adgroup_id": "hdvjo85rdghtnp07",
+            "ad_id": "yhoadg33lp0eo6uo",
+            "file_id": "mmnmx6uazjuliqky",
+            "ad_type": "ew_card",
+            "weight": 1,
+            "locales": {
+                "ar": {
+                    "caption": "كتاب تلوين مجاني: InColor",
+                    "alternativeText": "كتاب التلوين الأكثر شعبية! يشعرك بالاسترخاء والمتعة!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                },
+                "fr": {
+                    "caption": "Coloriage et Dessin: InColor",
+                    "alternativeText": "Livre de coloriage super populaire ! Relaxant et amusant !",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                },
+                "de": {
+                    "caption": "Zeichnen & Malen: InColor",
+                    "alternativeText": "Superbeliebtes Malbuch! Entspannt und unterhaltsam!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                },
+                "it": {
+                    "caption": "Colori e Disegni: InColor",
+                    "alternativeText": "Libro da colorare super popolare! Rilassante e divertente!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                },
+                "ja": {
+                    "caption": "大人のための塗り絵ゲーム: InColor",
+                    "alternativeText": "超人気の塗り絵ブック！面白くてストレス解消にもなる！",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                },
+                "ko": {
+                    "caption": "어른들을 위한 컬러링: InColor",
+                    "alternativeText": "인기 컬러링북! 스트레스도 풀고 재미도 있어요!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                },
+                "pt": {
+                    "caption": "Color e Desenhar: InColor",
+                    "alternativeText": "Livro de colorir super popular! Descontraído e divertido!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                },
+                "es": {
+                    "caption": "Colorear y Dibujar: InColor",
+                    "alternativeText": "¡Libro para colorear súper popular! ¡Relajado y divertido!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                },
+                "tr": {
+                    "caption": "Boyama ve Çizim: InColor",
+                    "alternativeText": "Süper popüler boyama kitabı! Sakin ve eğlenceli!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                },
+                "en": {
+                    "caption": "Incolor",
+                    "alternativeText": "Super popular coloring book! Decompression and fun!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                },
+                "id": {
+                    "caption": "Incolor",
+                    "alternativeText": "Buku Warna Populer! Cocok untuk menemani waktu santai Anda!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                },
+                "ru": {
+                    "caption": "Incolor",
+                    "alternativeText": "Супер популярная книжка-раскраска! Расслабляюще и весело!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                },
+                "th": {
+                    "caption": "Incolor",
+                    "alternativeText": "สมุดระบายสีสุดฮิต! ทั้งสนุกและคลายเครียด!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                },
+                "vi": {
+                    "caption": "Incolor",
+                    "alternativeText": "Sách tô màu siêu thịnh hành! Xả stress lại thú vị!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                },
+                "hi": {
+                    "caption": "Incolor",
+                    "alternativeText": "बेहद लोकप्रिय कलरिंग बुक! डीकंप्रेशन और मस्ती!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                },
+                "global": {
+                    "caption": "Incolor",
+                    "alternativeText": "Super popular coloring book! Decompression and fun!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                },
+                "cn": {
+                    "caption": "涂色绘画社区",
+                    "alternativeText": "超人气填色书!减压又好玩!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                },
+                "zh": {
+                    "caption": "塗色繪畫社區",
+                    "alternativeText": "超人氣填色書!減壓又好玩!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "331024c29147ae1f7e5df94cad04e3e9",
+                    "file_id": "mmnmx6uazjuliqky",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/331024c29147ae1f7e5df94cad04e3e9.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/b12c72b43c93818bb383c60800ff24ea.png"
+                }
+            }
+        },
+        {
+            "pkg": "com.create.pottery.paint.by.color",
+            "link": "https://app.adjust.com/1d8zly5",
+            "appid": "isxxov5xfjnzu5mt",
+            "ios_id": "1449834010",
+            "localFirst": false,
+            "adgroup_id": "hdvjo85rdghtnp07",
+            "ad_id": "ihxsdxutfypenoht",
+            "file_id": "y76pdllvsphhkyjq",
+            "ad_type": "ew_card",
+            "weight": 2,
+            "locales": {
+                "ja": {
+                    "caption": "くつろぎの陶芸: Pottery Master",
+                    "alternativeText": "斬新なリフレッシュ陶芸作成ゲーム、思うままに作る！",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                },
+                "ru": {
+                    "caption": "Керамика: Pottery Master",
+                    "alternativeText": "Создайте уникальную керамику, расслабьтесь и освободите свой разум",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                },
+                "en": {
+                    "caption": "Pottery Master",
+                    "alternativeText": "Create unique ceramics, relax and free your mind",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                },
+                "global": {
+                    "caption": "Pottery Master",
+                    "alternativeText": "Create unique ceramics, relax and free your mind",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                },
+                "zh": {
+                    "caption": "陶瓷大師",
+                    "alternativeText": "創意解壓陶瓷製作遊戲，隨心創作",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                },
+                "cn": {
+                    "caption": "陶瓷大师",
+                    "alternativeText": "创意解压陶瓷制作游戏，随心创作",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                },
+                "ar": {
+                    "caption": "Pottery Master",
+                    "alternativeText": "اصنع سيراميك فريدًا ، واسترخِ وحرر عقلك",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                },
+                "fr": {
+                    "caption": "Pottery Master",
+                    "alternativeText": "Pottery Master: Art céramique relaxant",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                },
+                "de": {
+                    "caption": "Pottery Master",
+                    "alternativeText": "Schaffen Sie einzigartige Keramiken, entspannen Sie sich und befreien Sie Ihren Geist",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                },
+                "id": {
+                    "caption": "Pottery Master",
+                    "alternativeText": "Game pembuatan keramik dekompresi kreatif, buat sesuai keinginan",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                },
+                "it": {
+                    "caption": "Pottery Master",
+                    "alternativeText": "Crea ceramiche uniche, rilassati e libera la mente",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                },
+                "th": {
+                    "caption": "Pottery Master",
+                    "alternativeText": "สร้างสรรค์เซรามิกส์ที่ไม่เหมือนใคร ผ่อนคลาย และปลดปล่อยความคิดของคุณ",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                },
+                "tr": {
+                    "caption": "Pottery Master",
+                    "alternativeText": "Eşsiz seramikler yaratın, rahatlayın ve zihninizi özgür bırakın",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                },
+                "vi": {
+                    "caption": "Pottery Master",
+                    "alternativeText": "Trò chơi làm gốm giải nén sáng tạo, sáng tạo như bạn muốn",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                },
+                "hi": {
+                    "caption": "Pottery Master",
+                    "alternativeText": "अद्वितीय सिरेमिक बनाएं, आराम करें और अपने दिमाग को मुक्त करें",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                },
+                "ko": {
+                    "caption": "편안한 도예: Pottery Master",
+                    "alternativeText": "독특한 도자기 만들기, 긴장을 풀고 마음을 자유롭게하십시오",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                },
+                "pt": {
+                    "caption": "Cerâmica Arte: Pottery Master",
+                    "alternativeText": "Crie cerâmicas únicas, relaxe e liberte sua mente",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                },
+                "es": {
+                    "caption": "Cerámica Arte: Pottery Master",
+                    "alternativeText": "Crea cerámica única, relájate y libera tu mente",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "e72401ade379f08d88eb88471e83c968",
+                    "file_id": "y76pdllvsphhkyjq",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/e72401ade379f08d88eb88471e83c968.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/d2100d562e27f408d53092d4c5cc054c.png"
+                }
+            }
+        },
+        {
+            "pkg": "com.inapp.no.paint.color.by.number.coloring",
+            "link": "https://app.adjust.com/p2y2lk0",
+            "appid": "tdevqooxm3z4mpfz",
+            "ios_id": "1440717738",
+            "localFirst": false,
+            "adgroup_id": "hdvjo85rdghtnp07",
+            "ad_id": "8xrhzmyc7mb9zgan",
+            "file_id": "9nju5zjdwb6m7n3d",
+            "ad_type": "ew_card",
+            "weight": 4,
+            "locales": {
+                "fr": {
+                    "caption": "Coloriage Relaxant: No.Paint",
+                    "alternativeText": "Jeu de coloriage simple, amusant et relaxant pour tous les âges ! Colorons !",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                },
+                "ru": {
+                    "caption": "Раскраска антистресс: No.Paint",
+                    "alternativeText": "Легкая и веселая игра-раскраска для всех возрастов! Давай раскрашивать!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                },
+                "en": {
+                    "caption": "No.Paint",
+                    "alternativeText": "Simple, fun and relaxing coloring game for all ages to enjoy! Let’s color!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                },
+                "pt": {
+                    "caption": "Colorir Relaxante: No.Paint",
+                    "alternativeText": "Jogo de pintar simples e relaxante para todas as idades desfrutarem!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                },
+                "global": {
+                    "caption": "No.Paint",
+                    "alternativeText": "Simple, fun and relaxing coloring game for all ages to enjoy! Let’s color!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                },
+                "ar": {
+                    "caption": "No.Paint",
+                    "alternativeText": "اصنع سيراميك فريدًا ، واسترخِ وحرر عقلك",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                },
+                "zh": {
+                    "caption": "藝術數字填色軟件",
+                    "alternativeText": "全免費的最新填色遊戲！超治愈的填色素材，簡單的填色玩法，快來填色放松吧！",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                },
+                "cn": {
+                    "caption": "艺术数字填色软件",
+                    "alternativeText": "全免费的最新填色游戏！超治愈的填色素材，简单的填色玩法，快来填色放松吧！",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                },
+                "id": {
+                    "caption": "No.Paint",
+                    "alternativeText": "Game pembuatan keramik dekompresi kreatif, buat sesuai keinginan",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                },
+                "th": {
+                    "caption": "No.Paint",
+                    "alternativeText": "สร้างสรรค์เซรามิกส์ที่ไม่เหมือนใคร ผ่อนคลาย และปลดปล่อยความคิดของคุณ",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                },
+                "vi": {
+                    "caption": "No.Paint",
+                    "alternativeText": "Trò chơi làm gốm giải nén sáng tạo, sáng tạo như bạn muốn",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                },
+                "hi": {
+                    "caption": "No.Paint",
+                    "alternativeText": "अद्वितीय सिरेमिक बनाएं, आराम करें और अपने दिमाग को मुक्त करें",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                },
+                "de": {
+                    "caption": "Erholsames Ausmalen: No.Paint",
+                    "alternativeText": "Einfaches, spaßiges Einfärben-Spiel für alle Altersgruppen. An die Farben!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                },
+                "it": {
+                    "caption": "Colorare Rilassa: No.Paint",
+                    "alternativeText": "Un gioco di colorazione semplice e rilassante adatto a tutte le età!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                },
+                "ja": {
+                    "caption": "癒しの着色ゲーム: No.Paint",
+                    "alternativeText": "簡単、面白いかつリラックスの色塗りゲーム、誰でも楽しめる！今すくプレイ！",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                },
+                "ko": {
+                    "caption": "편안한 색칠 게임: No.Paint",
+                    "alternativeText": "전 연령이 즐길 수 있는 간단하고, 재미있고 힐링되는 색칠 게임! 다 같이 색칠해봐요!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                },
+                "es": {
+                    "caption": "Relajante Coloreando: No.Paint",
+                    "alternativeText": "Simple y divertido juego de colorear para todas las edades. ¡Es adictivo!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                },
+                "tr": {
+                    "caption": "Rahatlatıcı boyama: No.Paint",
+                    "alternativeText": "Her yaş için basit ve rahatlatıcı bir boyama oyunu! Haydi renklendirelim!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "f7035a92bc45c67c8022f8af4c6182ed",
+                    "file_id": "9nju5zjdwb6m7n3d",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/f7035a92bc45c67c8022f8af4c6182ed.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7ff03107e20e0eceb3386a31daf3c00f.png"
+                }
+            }
+        },
+        {
+            "pkg": "com.mind.quiz.brain.out",
+            "link": "https://app.adjust.com/sv3gh5y",
+            "appid": "47fhhgvaodipzzqhvfo2pxmp",
+            "ios_id": "1477841973",
+            "localFirst": false,
+            "adgroup_id": "hdvjo85rdghtnp07",
+            "ad_id": "ue04wtl2g9dn70dp",
+            "file_id": "kfynsflcenr7hab5",
+            "ad_type": "ew_card",
+            "weight": 8,
+            "locales": {
+                "hi": {
+                    "caption": "Brain Out: इसे पास कर पाएंगे?",
+                    "alternativeText": "क्या आप इसे पास कर सकते हैं?",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                },
+                "ru": {
+                    "caption": "Brain Out: Ты сможешь пройти?",
+                    "alternativeText": "За пределами вашего мышления!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                },
+                "en": {
+                    "caption": "Brain out",
+                    "alternativeText": "Beyond your limits of thought!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                },
+                "cn": {
+                    "caption": "脑洞大师",
+                    "alternativeText": "让你跳出思维局限圈！",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                },
+                "zh": {
+                    "caption": "腦洞大師",
+                    "alternativeText": "讓你跳出思維局限圈！",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                },
+                "ar": {
+                    "caption": "Brain Out: هل يمكنك حلها؟",
+                    "alternativeText": "أبعد من حدود تفكيرك!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                },
+                "fr": {
+                    "caption": "Brain Out: Défi de casse-têtes",
+                    "alternativeText": "Dépassez les limites de votre pensée !",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                },
+                "de": {
+                    "caption": "Brain Out: Schaffst du es?",
+                    "alternativeText": "Über die Grenzen deines Denkens hinaus!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                },
+                "id": {
+                    "caption": "Brain Out: Tebak tebakan Besar",
+                    "alternativeText": "Menuntun Anda menuju ke imajinasi luar biasa!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                },
+                "it": {
+                    "caption": "Brain Out: Riesci a passarlo?",
+                    "alternativeText": "Oltre i tuoi limiti di pensiero!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                },
+                "ja": {
+                    "caption": "Brain Out: 脳マンへの挑戦",
+                    "alternativeText": "とらわれた思考法から抜け出す！",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                },
+                "pt": {
+                    "caption": "Brain Out: Consegue passar?",
+                    "alternativeText": "Além de seus limites mentais!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                },
+                "es": {
+                    "caption": "Brain Out: ¿Puedes pasarlo?",
+                    "alternativeText": "¡Más allá de tus límites de pensamiento!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                },
+                "global": {
+                    "caption": "Brain Out",
+                    "alternativeText": "Beyond your limits of thought!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                },
+                "ko": {
+                    "caption": "Brain Out: 넌센스 마스터, 두뇌 트레이닝",
+                    "alternativeText": "생각의 한계를 뛰어넘어보세요!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                },
+                "th": {
+                    "caption": "Brain Out: เกมกวนเขย่าต่อมฮา",
+                    "alternativeText": "ให้คุณได้กระโดดออกจากกรอบความคิด!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                },
+                "tr": {
+                    "caption": "Brain Out: Geçebilir misiniz?",
+                    "alternativeText": "Düşüncenin sınırını aşar!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                },
+                "vi": {
+                    "caption": "Brain Out: Game hack não",
+                    "alternativeText": "Khiến bạn vượt khỏi giới hạn của tư duy!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "558b6a5dbe5daa521bc539b5e7aa662f",
+                    "file_id": "kfynsflcenr7hab5",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/558b6a5dbe5daa521bc539b5e7aa662f.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/fbb44531a77f10a1ae5f4f8b7fa1f4e9.jpg"
+                }
+            }
+        },
+        {
+            "pkg": "com.doodle.master.draw.glow.art",
+            "link": "https://app.adjust.com/fvloau0",
+            "appid": "jpqtxlfxwnparmls",
+            "localFirst": false,
+            "adgroup_id": "hdvjo85rdghtnp07",
+            "ad_id": "2jnu0vbbqrbyv5rr",
+            "file_id": "f1y9wb96ptbmig4c",
+            "ad_type": "ew_card",
+            "weight": 5,
+            "locales": {
+                "ar": {
+                    "caption": "Doodle Master",
+                    "alternativeText": "هيا ارسم رسوماتك الخاصة!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                },
+                "de": {
+                    "caption": "Doodle Master",
+                    "alternativeText": "Komm und zeichne deine eigenen Graffiti!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                },
+                "fr": {
+                    "caption": "Doodle Master",
+                    "alternativeText": "Venez dessiner vos propres graffitis !",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                },
+                "id": {
+                    "caption": "Doodle Master",
+                    "alternativeText": "Yuk, gambar grafiti Anda sendiri!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                },
+                "it": {
+                    "caption": "Doodle Master",
+                    "alternativeText": "Vieni a disegnare i tuoi graffiti!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                },
+                "ko": {
+                    "caption": "Doodle Master",
+                    "alternativeText": "나만의 낙서를 그려보세요!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                },
+                "pt": {
+                    "caption": "Doodle Master",
+                    "alternativeText": "Venha e faça seu próprio graffiti!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                },
+                "es": {
+                    "caption": "Doodle Master",
+                    "alternativeText": "¡Ven y dibuja tu propio grafiti!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                },
+                "tr": {
+                    "caption": "Doodle Master",
+                    "alternativeText": "Gel ve kendi grafitini çiz!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                },
+                "vi": {
+                    "caption": "Doodle Master",
+                    "alternativeText": "Mau đến để vẽ những bức hình của riêng mình đi nào!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                },
+                "hi": {
+                    "caption": "Doodle Master",
+                    "alternativeText": "आएं और अपनी खुद की ग्राफिती बनाएं!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                },
+                "cn": {
+                    "caption": "涂鸦大师",
+                    "alternativeText": "快来画出自己专属的涂鸦吧!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                },
+                "zh": {
+                    "caption": "塗鴉大師",
+                    "alternativeText": "快來畫出自己專屬的塗鴉吧!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                },
+                "en": {
+                    "caption": "Doodle Master",
+                    "alternativeText": "Come and draw your own graffiti!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                },
+                "global": {
+                    "caption": "Doodle Master",
+                    "alternativeText": "Come and draw your own graffiti!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                },
+                "ja": {
+                    "caption": "Doodle Master",
+                    "alternativeText": "さっそく自分の落書きを描きましょう！",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                },
+                "ru": {
+                    "caption": "Doodle Master",
+                    "alternativeText": "Приходите и рисуйте свои собственные граффити!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                },
+                "th": {
+                    "caption": "Doodle Master",
+                    "alternativeText": "รีบ ๆ มาวาดกราฟฟิตี้สุดพิเศษของตัวเองสิ",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "977cb8625f1d41aeaa4424197e4c7ceb",
+                    "file_id": "f1y9wb96ptbmig4c",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/977cb8625f1d41aeaa4424197e4c7ceb.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/9c9608cd57e1c26a521f0c641e43ac1d.png"
+                }
+            }
+        },
+        {
+            "pkg": "com.find.out.hidden.objects",
+            "link": "https://app.adjust.com/q4lcn7r",
+            "appid": "47fhhgvamo2sptrew5t8pvdk",
+            "ios_id": "1488572081",
+            "localFirst": false,
+            "adgroup_id": "hdvjo85rdghtnp07",
+            "ad_id": "uzyeg5elgp4vu5rv",
+            "file_id": "1icomnnzf4mvt4zl",
+            "ad_type": "ew_card",
+            "weight": 9,
+            "locales": {
+                "th": {
+                    "caption": "Find Out: ตามหาของที่ซ่อนอยู่",
+                    "alternativeText": "คุณจะสามารถหาของที่ซ่อนอยู่ทั้งหมดได้มั้ย?",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                },
+                "es": {
+                    "caption": "Find Out: Buscar obj. ocultos",
+                    "alternativeText": "¿Puedes encontrar todos los objetos ocultos?",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                },
+                "ko": {
+                    "caption": "Find Out: 숨은 물건 찾기",
+                    "alternativeText": "숨은 물건을 모두 찾아낼 수 있나요?",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                },
+                "tr": {
+                    "caption": "Find Out: Gizli Öğeleri Bul！",
+                    "alternativeText": "Tüm gizli nesneleri bulabilir misin?",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                },
+                "vi": {
+                    "caption": "Find Out: Tìm vật bị giấu",
+                    "alternativeText": "Bạn có thể tìm được ra tất cả những vật phẩm được ẩn giấu không?",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                },
+                "global": {
+                    "caption": "Find Out",
+                    "alternativeText": "Can you find all the hidden objects?",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                },
+                "en": {
+                    "caption": "Find out",
+                    "alternativeText": "Can you find all the hidden objects?",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                },
+                "cn": {
+                    "caption": "脑洞大侦探",
+                    "alternativeText": "你能找到所有隐藏的物品吗?",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                },
+                "zh": {
+                    "caption": "腦洞大偵探",
+                    "alternativeText": "你能找到所有隱藏的物品嗎?",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                },
+                "hi": {
+                    "caption": "Find out",
+                    "alternativeText": "क्या सारी छुपी वस्तुएं तलाश जा सकती हैं?",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                },
+                "ar": {
+                    "caption": "Find Out: لعبة الالغاز الخفية",
+                    "alternativeText": "هل يمكنك العثور على كل الأشياء المخبأة؟",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                },
+                "fr": {
+                    "caption": "Find Out: Trouver les objets",
+                    "alternativeText": "Pouvez-vous trouver tous les objets dissimulés ?",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                },
+                "de": {
+                    "caption": "Find Out: Verborgene Objekte!",
+                    "alternativeText": "Kannst du alle verborgenen Objekte finden?",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                },
+                "id": {
+                    "caption": "Find Out:Teka teki tersembunyi",
+                    "alternativeText": "Apakah kamu bisa menemukan seluruh item yang tersembunyi?",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                },
+                "it": {
+                    "caption": "Find Out: Oggetti Nascosti",
+                    "alternativeText": "Riesci a trovare tutti gli oggetti nascosti?",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                },
+                "ja": {
+                    "caption": "Find Out: 隠されているものを見つけよう",
+                    "alternativeText": "隠されているものをすべて見つけられるか？",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                },
+                "pt": {
+                    "caption": "Find Out: Procurar obj escond",
+                    "alternativeText": "Você consegue encontrar os objetos escondidos?",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                },
+                "ru": {
+                    "caption": "Find Out: находите спрятанное!",
+                    "alternativeText": "Сможете ли вы найти все скрытые предметы?",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "83b8a42ccc53e0e41f8bb3e59e8a4381",
+                    "file_id": "1icomnnzf4mvt4zl",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/83b8a42ccc53e0e41f8bb3e59e8a4381.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/77ed0acb914d9d7a448dfa253cd21ada.png"
+                }
+            }
+        },
+        {
+            "pkg": "com.eyewind.case.master",
+            "link": "https://app.adjust.com/ra0djpm",
+            "appid": "47fhhgva4dlletm2rgkx00xo",
+            "ios_id": "1548848295",
+            "localFirst": true,
+            "adgroup_id": "hdvjo85rdghtnp07",
+            "ad_id": "ix4u1hzbqrirx5zt",
+            "file_id": "gcnazad338qloeku",
+            "ad_type": "ew_card",
+            "weight": 11,
+            "locales": {
+                "ar": {
+                    "caption": "Case Hunter: من الكاذب؟",
+                    "alternativeText": "حل القضايا الصعبة؟ واجب المحقق!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                },
+                "ru": {
+                    "caption": "Case Hunter: раскроешь дело?",
+                    "alternativeText": "Решать сложные дела? Обязанность детектива!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                },
+                "en": {
+                    "caption": "Case Hunter",
+                    "alternativeText": "Solving difficult cases? Detective's duty!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                },
+                "cn": {
+                    "caption": "案件大师",
+                    "alternativeText": "解决疑难案件？大侦探义不容辞!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                },
+                "zh": {
+                    "caption": "案件大師",
+                    "alternativeText": "解決疑難案件？大偵探義不容辭!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                },
+                "hi": {
+                    "caption": "Case Hunter",
+                    "alternativeText": "कठिन मामले सुलझाना? जासूस की ड्यूटी!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                },
+                "de": {
+                    "caption": "Case Hunter: Schaffst du es?",
+                    "alternativeText": "Schwierige Fälle lösen? Die Pflicht eines Detektivs!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                },
+                "pt": {
+                    "caption": "Case Hunter: Jeu de casse-tête",
+                    "alternativeText": "Resolver casos difíceis? Dever do detetive!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                },
+                "th": {
+                    "caption": "Case Hunter: แก้ได้มั้ย?",
+                    "alternativeText": "ไขคดียาก? เป็นหน้าที่ของนักสืบ!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                },
+                "vi": {
+                    "caption": "Case Hunter:Hãy vén màn bí mật",
+                    "alternativeText": "Xử lý các vụ án khó? Đại thám tử không thể chối từ!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                },
+                "global": {
+                    "caption": "Case Hunter",
+                    "alternativeText": "Solving difficult cases? Detective's duty!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                },
+                "id": {
+                    "caption": "Case Hunter",
+                    "alternativeText": "Memecahkan kasus sulit? Itu tugas Detektif!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                },
+                "fr": {
+                    "caption": "Case Hunter: Jeu de casse-tête",
+                    "alternativeText": "Résoudre des affaires difficiles ? Le devoir du détective !",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                },
+                "it": {
+                    "caption": "Case Hunter: Puoi risolverlo?",
+                    "alternativeText": "Risolvere casi difficili? È dovere del detective!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                },
+                "ja": {
+                    "caption": "Case Hunter: 真実はひとつに限る！",
+                    "alternativeText": "難事件の解決？この名探偵に任せて！",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                },
+                "ko": {
+                    "caption": "Case Hunter: 진실은 언제나 하나!",
+                    "alternativeText": "미스터리 사건 해결이라면 명탐정이 나서는 게 인지상정!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                },
+                "es": {
+                    "caption": "Case Hunter: Estruja tu mente",
+                    "alternativeText": "¿Resolver casos difíciles? ¡Es el deber de detective!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                },
+                "tr": {
+                    "caption": "Case Hunter: Çözebilir misin?",
+                    "alternativeText": "Zor sorunları mı çözüyorsun? Dedektifin görevi!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "160e7214c09a46907d00bc2e62fdafd7",
+                    "file_id": "gcnazad338qloeku",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/160e7214c09a46907d00bc2e62fdafd7.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/6c16ef4fdae5fefe22b0fae89c299ab2.png"
+                }
+            }
+        },
+        {
+            "pkg": "com.love.poly.puzzle.game",
+            "link": "https://app.adjust.com/fb648gu",
+            "appid": "um4cbp1yu16wqcp6",
+            "ios_id": "1450154046",
+            "localFirst": false,
+            "adgroup_id": "hdvjo85rdghtnp07",
+            "ad_id": "rxeegvexnwf93q6j",
+            "file_id": "bo5mjtojbrukkvm7",
+            "ad_type": "ew_card",
+            "weight": 3,
+            "locales": {
+                "en": {
+                    "caption": "Love poly",
+                    "alternativeText": "Can you finish the 3D puzzle? Try it!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                },
+                "de": {
+                    "caption": "Neues Puzzlespiel: Love Poly",
+                    "alternativeText": "Kannst du das 3D-Puzzle beenden? Start!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                },
+                "fr": {
+                    "caption": "Nouveau puzzle: Love Poly",
+                    "alternativeText": "Pouvez-vous terminer le puzzle 3D ? Commencez !",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                },
+                "it": {
+                    "caption": "Nuovo Puzzle: Love Poly: Love Poly",
+                    "alternativeText": "Riesci a completare il puzzle 3D? Inizia!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                },
+                "ja": {
+                    "caption": "新感覚3dパズル: Love Poly",
+                    "alternativeText": "3Dパズルが解けられるかな？さあ、回せ！",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                },
+                "cn": {
+                    "caption": "转转拼图",
+                    "alternativeText": "你能破解3D拼图吗？转动吧!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                },
+                "ar": {
+                    "caption": "Love poly",
+                    "alternativeText": "هل يمكنك إنهاء اللغز 3D (ثلاثي الأبعاد)؟ ابدأ!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                },
+                "ko": {
+                    "caption": "최신의 3D퍼즐게임: Love Poly",
+                    "alternativeText": "3D 퍼즐을 맞출 수 있나요? 돌려 보세요!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                },
+                "pt": {
+                    "caption": "Novo passatempo: Love Poly",
+                    "alternativeText": "Você consegue terminar o quebra-cabeça 3D? Comece!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                },
+                "ru": {
+                    "caption": "Новая Игра Пазл: Love Poly",
+                    "alternativeText": "Можете закончить 3D-головоломку? Старт!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                },
+                "es": {
+                    "caption": "Juego de puzles: Love Poly",
+                    "alternativeText": "¿Puedes terminar el rompecabezas 3D? ¡Comienza!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                },
+                "tr": {
+                    "caption": "Yeni Yapboz Oyunu: Love Poly",
+                    "alternativeText": "3D yapboz bitirebilir misin? Başla!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                },
+                "id": {
+                    "caption": "Love poly",
+                    "alternativeText": "Bisakah kamu menyelesaikan puzzle 3D? Ayo, mulai!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                },
+                "th": {
+                    "caption": "Love poly",
+                    "alternativeText": "ไขปริศนาจิ๊กซอว์ 3D ได้ไหม? ลองหมุนดูสิ!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                },
+                "vi": {
+                    "caption": "Love poly",
+                    "alternativeText": "Bạn có thể bẻ khóa ảnh ghép 3D không? Chuyển động đi!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                },
+                "hi": {
+                    "caption": "Love poly",
+                    "alternativeText": "क्या आपसे 3डी पहेली सुलझेगी? इसे आजमाएं!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                },
+                "global": {
+                    "caption": "Love poly",
+                    "alternativeText": "Can you finish the 3D puzzle? Try it!",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                },
+                "zh": {
+                    "caption": "轉轉拼圖",
+                    "alternativeText": "你能破解3D拼圖嗎？轉動吧！",
+                    "mime": "image/png",
+                    "ext": ".png",
+                    "hash": "de605de26e3f9b84ffd2a3b94feda2d8",
+                    "file_id": "bo5mjtojbrukkvm7",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/de605de26e3f9b84ffd2a3b94feda2d8.png",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/68b88cbaae10c8a1d60cf1c294bf7e60.png"
+                }
+            }
+        },
+        {
+            "pkg": "com.mind.quiz.brain.find",
+            "link": "https://app.adjust.com/1yykkvj",
+            "appid": "47fhhgvapaqnfwvzzupjdjrb",
+            "ios_id": "1529993576",
+            "localFirst": false,
+            "adgroup_id": "hdvjo85rdghtnp07",
+            "ad_id": "lpdjyjnkffxnv3kd",
+            "file_id": "meev75q2hjfmlmus",
+            "ad_type": "ew_card",
+            "weight": 10,
+            "locales": {
+                "global": {
+                    "caption": "Brain Find",
+                    "alternativeText": "Only intelligent people can go through all!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                },
+                "ru": {
+                    "caption": "Brain Find",
+                    "alternativeText": "Только умные люди могут пройти через всё это!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                },
+                "fr": {
+                    "caption": "Brain Find",
+                    "alternativeText": "Seules les personnes intelligentes peuvent aller jusqu'au bout!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                },
+                "tr": {
+                    "caption": "Brain Find",
+                    "alternativeText": "Sadece zeki insanlar hepsini aşabilir!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                },
+                "cn": {
+                    "caption": "烧脑大师",
+                    "alternativeText": "只有真正聪明的人才能通过所有关卡!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                },
+                "en": {
+                    "caption": "Brain Find",
+                    "alternativeText": "Only intelligent people can go through all!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                },
+                "vi": {
+                    "caption": "Brain Find",
+                    "alternativeText": "Chỉ những người thực sự thông minh mới có thể vượt qua tất cả các cửa ải!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                },
+                "zh": {
+                    "caption": "燒腦大師",
+                    "alternativeText": "只有真正聰明的人才能通過所有關卡!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                },
+                "pt": {
+                    "caption": "Brain Find",
+                    "alternativeText": "Só pessoas inteligentes podem passar por tudo!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                },
+                "it": {
+                    "caption": "Brain Find",
+                    "alternativeText": "Solo le persone intelligenti possono superarli tutti!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                },
+                "hi": {
+                    "caption": "Brain Find",
+                    "alternativeText": "केवल बुद्धिमान लोग ही सब कुछ पार सकते हैं!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                },
+                "de": {
+                    "caption": "Brain Find",
+                    "alternativeText": "Nur intelligente Menschen können alles lösen!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                },
+                "ar": {
+                    "caption": "Brain Find",
+                    "alternativeText": "الأشخاص الأذكياء يمكنهم اجتيازهم جميعًا!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                },
+                "id": {
+                    "caption": "Brain Find",
+                    "alternativeText": "Hanya Jenius yang dapat melewati semua stage!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                },
+                "ko": {
+                    "caption": "Brain Find",
+                    "alternativeText": "정말 똑똑한 사람만 모든 스테이지를 클리어할 수 있어요!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                },
+                "th": {
+                    "caption": "Brain Find",
+                    "alternativeText": "มีเพียงคนฉลาดที่แท้จร ิงเท่านั้นที่ผ่านด่านทั้งหมดได้!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                },
+                "es": {
+                    "caption": "Brain Find",
+                    "alternativeText": "¡Solo las personas inteligentes pueden pasar todas las fases!",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                },
+                "ja": {
+                    "caption": "Brain Find",
+                    "alternativeText": "真に賢い人だけがすべてのステージをクリアできる！",
+                    "mime": "video/mp4",
+                    "ext": ".mp4",
+                    "hash": "994100970e9988f3e42eead232112435",
+                    "file_id": "meev75q2hjfmlmus",
+                    "url": "https://cdn.dms.eyewind.cn/uploads/994100970e9988f3e42eead232112435.mp4",
+                    "previewUrl": "https://cdn.dms.eyewind.cn/uploads/7e553822cfbd98135d7be7f4c02f68bc.png"
+                }
+            }
+        }
+    ]
+}

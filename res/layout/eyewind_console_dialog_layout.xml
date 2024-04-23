@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/cardView" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/eyewind_sdk_white" app:cardCornerRadius="@dimen/eyewind_sdk_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:padding="@dimen/eyewind_sdk_margin" android:layout_width="290.0dip" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/eyewind_sdk_text_size_dialog_title" android:textColor="@color/eyewind_sdk_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="组件联盟" android:layout_weight="1.0" android:textAllCaps="true" />
+                <ImageView android:id="@id/ivClose" android:padding="@dimen/eyewind_sdk_margin_s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/eyewind_console_ic_close" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/eyewind_sdk_margin">
+                <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:id="@id/itemMax" android:background="@drawable/eyewind_console_img_bg" android:layout_width="120.0dip" android:layout_height="120.0dip">
+                    <TextView android:textSize="@dimen/eyewind_sdk_text_size_m" android:textColor="@color/eyewind_sdk_black" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MAX" android:drawableTop="@drawable/eyewind_console_img_abtest" android:drawablePadding="@dimen/eyewind_sdk_margin_s" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:id="@id/itemAdmob" android:background="@drawable/eyewind_console_img_bg" android:layout_width="120.0dip" android:layout_height="120.0dip">
+                    <TextView android:textSize="@dimen/eyewind_sdk_text_size_m" android:textColor="@color/eyewind_sdk_black" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Admob" android:drawableTop="@drawable/eyewind_console_img_abtest" android:drawablePadding="@dimen/eyewind_sdk_margin_s" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

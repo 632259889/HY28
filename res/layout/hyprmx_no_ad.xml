@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffeaeaea" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/hyprmx_header" android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_alignParentTop="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/hyprmx_close_button" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/hyprmx_close_button" android:contentDescription="@string/hyprmx_close_offer_button" app:tint="#ff5d5d5d" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/hyprmx_border" android:background="#ff888888" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/hyprmx_header" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/hyprmx_border">
+        <TextView android:textSize="18.0sp" android:textColor="#ff282828" android:gravity="center_horizontal" android:id="@id/hyprmx_no_ad_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="23.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="23.0dip" android:text="@string/hyprmx_no_ad_title" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

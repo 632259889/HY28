@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:layout_gravity="top" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="@dimen/tool_choosecolor_main_h" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@dimen/tool_choosecolor_color_h">
+            <LinearLayout android:orientation="horizontal" android:id="@id/color_main" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </HorizontalScrollView>
+        <LinearLayout android:orientation="horizontal" android:id="@id/gradientcolor" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="@dimen/tool_choosecolor_color_h" android:layout_marginTop="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_weight="0.0">
+        <RelativeLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/colorMeters" android:background="@drawable/btn_colormeters" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/nowcolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/colorometers_nowcolor" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/yes" android:background="@drawable/colorchooser_yes" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

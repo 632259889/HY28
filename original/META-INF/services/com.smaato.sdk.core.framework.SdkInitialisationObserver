@@ -1,0 +1,2 @@
+com.smaato.sdk.core.config.ConfigurationProviderInitialiser
+com.smaato.sdk.core.remoteconfig.generic.GenericConfigProviderInitializer

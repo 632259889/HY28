@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="ewc_width_percent">72.0%</fraction>
+    <fraction name="ewpolicy_dialog_width_percent">100.0%</fraction>
+    <fraction name="sdk_dialog_width_percent">100.0%</fraction>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_icon_size">52.0dip</dimen>
+    <dimen name="brush_dis">1.0dip</dimen>
+    <dimen name="brush_pensize">16.0dip</dimen>
+    <dimen name="color_dis">5.0dip</dimen>
+    <dimen name="color_w">17.0dip</dimen>
+    <dimen name="crayon_pensize">18.0dip</dimen>
+    <dimen name="move_clear_dis">100.0dip</dimen>
+    <dimen name="move_dis">10.0dip</dimen>
+    <dimen name="oil_pensize">2.5dip</dimen>
+    <dimen name="oil_scale">1.1999817px</dimen>
+    <dimen name="pencil_pensize">3.5dip</dimen>
+    <dimen name="rubber_pensize">24.0dip</dimen>
+    <dimen name="ruler_pensize">3.0dip</dimen>
+    <dimen name="strokeWidth">3.0dip</dimen>
+    <dimen name="tool_choosecolor">56.0dip</dimen>
+    <dimen name="tool_choosecolor_color_h">35.0dip</dimen>
+    <dimen name="tool_choosecolor_main_h">100.0dip</dimen>
+    <dimen name="tool_h">160.0dip</dimen>
+    <dimen name="tool_main_h">120.0dip</dimen>
+    <dimen name="tool_top_h">40.0dip</dimen>
+    <dimen name="watercolor_pensize">8.0dip</dimen>
+    <dimen name="waterluk_pensize">38.0dip</dimen>
+</resources>

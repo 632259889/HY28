@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/feedback_root_layout" android:background="?feedbackDialogBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/feedback_debug_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/feedback_page_parent" android:layout_alignBottom="@id/feedback_page_parent" />
+    <FrameLayout android:id="@id/feedback_page_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/feedback_close" android:background="@drawable/feedback_bg_button_circle" android:padding="6.0dip" android:layout_width="@dimen/feedback_close_button_size" android:layout_height="@dimen/feedback_close_button_size" android:layout_alignParentRight="true" app:srcCompat="@drawable/feedback_ic_close" />
+</RelativeLayout>

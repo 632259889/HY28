@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/feedback_shot_card" android:focusable="true" android:clickable="true" style="@style/FeedbackScreenshotCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/feedback_shot_image" style="@style/FeedbackScreenshotImageStyle" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center|right|top" android:id="@id/feedback_shot_close" android:background="@drawable/feedback_bg_shot_close" android:visibility="invisible" android:layout_width="16.0dip" android:layout_height="16.0dip" android:scaleType="fitCenter" app:srcCompat="@drawable/feedback_ic_close" app:tint="@android:color/white" />
+</androidx.cardview.widget.CardView>

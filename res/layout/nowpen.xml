@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/tool_main_h">
+        <ImageView android:id="@id/nowpen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pen_ocrayon" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <hhh.aaa.SeekBarPenSize android:layout_gravity="center" android:id="@id/penSizeSeekBar" android:focusable="true" android:layout_width="@dimen/aplha_seekbar_w" android:layout_height="20.0dip" android:layout_marginBottom="10.0dip" />
+            <SeekBar android:layout_gravity="center" android:id="@id/penAlphaSeekBar" android:focusable="true" android:layout_width="@dimen/aplha_seekbar_w" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:max="99" android:progress="100" style="@style/Widget.SeekBar.Normal" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

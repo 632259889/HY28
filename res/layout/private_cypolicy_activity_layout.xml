@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_index" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivBack" android:background="@drawable/fw_ripple_gray" android:padding="@dimen/fw_margin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_back" />
+        <TextView android:textSize="@dimen/app_bt_big" android:textColor="@color/app_black" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <WebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/ll_index" />
+</androidx.constraintlayout.widget.ConstraintLayout>

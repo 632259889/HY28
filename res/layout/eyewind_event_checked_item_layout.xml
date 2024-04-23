@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:paddingLeft="@dimen/eyewind_sdk_margin" android:paddingTop="@dimen/eyewind_sdk_margin_s" android:paddingRight="@dimen/eyewind_sdk_margin" android:paddingBottom="@dimen/eyewind_sdk_margin_s" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/eyewind_sdk_text_size_m" android:textStyle="bold" android:textColor="@color/eyewind_sdk_black" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="event" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/eyewind_sdk_text_size_m" android:textStyle="bold" android:textColor="@color/eyewind_sdk_black" android:id="@id/tvState" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="通过" />
+</androidx.appcompat.widget.LinearLayoutCompat>

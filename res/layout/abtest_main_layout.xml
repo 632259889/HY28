@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/abtest_color" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivBlack" android:background="@drawable/eyewind_console_img_bt_bg" android:padding="@dimen/eyewind_sdk_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/eyewind_console_ic_black" android:tint="@color/eyewind_sdk_white" />
+        <TextView android:textSize="@dimen/eyewind_sdk_text_size_l" android:textStyle="bold" android:textColor="@color/eyewind_sdk_white" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/abtest_name" android:layout_weight="1.0" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivManager" android:padding="@dimen/abtest_margin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/abtest_ic_manager" android:contentDescription="@string/abtest_manager" app:tint="@color/abtest_white" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.appcompat.widget.LinearLayoutCompat>

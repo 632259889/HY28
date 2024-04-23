@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/llParameter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/abtest_margin_s"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/abtest_text_size_s" android:textColor="@color/abtest_white" android:background="@drawable/abtest_item_parameter_bg" android:paddingLeft="@dimen/abtest_margin_s" android:paddingRight="@dimen/abtest_margin_s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/abtest_parameter" />
+        <TextView android:textSize="@dimen/abtest_text_size_s" android:textColor="@color/abtest_black" android:id="@id/tvKey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/abtest_margin_s" android:text="Key" android:layout_marginStart="@dimen/abtest_margin_s" />
+    </LinearLayout>
+    <TextView android:id="@id/tvValue" android:background="@drawable/abtest_value_round_bg" android:padding="@dimen/abtest_margin_s" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/abtest_margin_s" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+{
+  "inChina": false,
+  "umengKey": "56fe04c967e58eb3fe0006a7",
+  "eyewindAppId": "j27o84juctnadjrw",
+  "ltvAdjustToken": "",
+
+  "isAutoEvent": true,
+  "canInitEvent": false,
+  "canInitConfig": false,
+
+  "pluginConfig": {
+    "umeng": true,
+    "adjust": true,
+    "firebase": true,
+    "yfEvent": true,
+    "ars": true,
+    "billing": true,
+    "taichi": false,
+    "ltvAd": false
+  },
+  "logCatConfig": {
+    "adLog": true,
+    "billingLog": false,
+    "sdkLog": true,
+    "eventLog": false,
+    "configLog": false,
+    "libLog": false
+  },
+  "customConfig": {
+
+  }
+}

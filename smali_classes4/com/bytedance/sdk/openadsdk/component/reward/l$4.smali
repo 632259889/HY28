@@ -1,0 +1,91 @@
+.class Lcom/bytedance/sdk/openadsdk/component/reward/l$4;
+.super Ljava/lang/Object;
+.source "RewardVideoLoadManager.java"
+
+# interfaces
+.implements Lcom/bytedance/sdk/openadsdk/core/video/b/a$a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/bytedance/sdk/openadsdk/component/reward/l;->a(Lcom/bytedance/sdk/openadsdk/core/model/a;Lcom/bytedance/sdk/openadsdk/core/model/p;Lcom/bytedance/sdk/openadsdk/component/reward/o;Lcom/bytedance/sdk/openadsdk/AdSlot;ZLcom/bytedance/sdk/openadsdk/utils/z;Lcom/bytedance/sdk/openadsdk/component/reward/l$a;Z)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Z
+
+.field final synthetic b:Lcom/bytedance/sdk/openadsdk/core/model/p;
+
+.field final synthetic c:Lcom/bytedance/sdk/openadsdk/AdSlot;
+
+.field final synthetic d:Lcom/bytedance/sdk/openadsdk/utils/z;
+
+.field final synthetic e:Lcom/bytedance/sdk/openadsdk/component/reward/l;
+
+
+# direct methods
+.method constructor <init>(Lcom/bytedance/sdk/openadsdk/component/reward/l;ZLcom/bytedance/sdk/openadsdk/core/model/p;Lcom/bytedance/sdk/openadsdk/AdSlot;Lcom/bytedance/sdk/openadsdk/utils/z;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/l$4;->e:Lcom/bytedance/sdk/openadsdk/component/reward/l;
+
+    iput-boolean p2, p0, Lcom/bytedance/sdk/openadsdk/component/reward/l$4;->a:Z
+
+    iput-object p3, p0, Lcom/bytedance/sdk/openadsdk/component/reward/l$4;->b:Lcom/bytedance/sdk/openadsdk/core/model/p;
+
+    iput-object p4, p0, Lcom/bytedance/sdk/openadsdk/component/reward/l$4;->c:Lcom/bytedance/sdk/openadsdk/AdSlot;
+
+    iput-object p5, p0, Lcom/bytedance/sdk/openadsdk/component/reward/l$4;->d:Lcom/bytedance/sdk/openadsdk/utils/z;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Z)V
+    .locals 2
+
+    .line 1
+    iget-boolean p1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/l$4;->a:Z
+
+    if-nez p1, :cond_0
+
+    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/l$4;->b:Lcom/bytedance/sdk/openadsdk/core/model/p;
+
+    if-eqz p1, :cond_0
+
+    invoke-static {p1}, Lcom/bytedance/sdk/openadsdk/core/model/s;->k(Lcom/bytedance/sdk/openadsdk/core/model/p;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    .line 2
+    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/l$4;->b:Lcom/bytedance/sdk/openadsdk/core/model/p;
+
+    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/reward/l$4;->c:Lcom/bytedance/sdk/openadsdk/AdSlot;
+
+    invoke-virtual {v0}, Lcom/bytedance/sdk/openadsdk/AdSlot;->getDurationSlotType()I
+
+    move-result v0
+
+    invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/utils/aa;->c(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/l$4;->d:Lcom/bytedance/sdk/openadsdk/utils/z;
+
+    invoke-static {p1, v0, v1}, Lcom/bytedance/sdk/openadsdk/c/c;->b(Lcom/bytedance/sdk/openadsdk/core/model/p;Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/utils/z;)V
+
+    :cond_0
+    return-void
+.end method

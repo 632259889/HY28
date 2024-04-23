@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:paddingLeft="@dimen/eyewind_sdk_margin" android:paddingTop="@dimen/eyewind_sdk_margin" android:paddingBottom="@dimen/eyewind_sdk_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/eyewind_sdk_text_size_s" android:textStyle="bold" android:textColor="@color/eyewind_sdk_black" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开关" android:layout_weight="1.0" />
+    <androidx.appcompat.widget.SwitchCompat android:id="@id/switchCompat" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</androidx.appcompat.widget.LinearLayoutCompat>

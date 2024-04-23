@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/eyewind_sdk_color_off" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivBlack" android:background="@drawable/eyewind_console_img_bt_bg" android:padding="@dimen/eyewind_sdk_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/eyewind_console_ic_black" android:tint="@color/eyewind_sdk_white" />
+        <TextView android:textSize="@dimen/eyewind_sdk_text_size_l" android:textStyle="bold" android:textColor="@color/eyewind_sdk_white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="内购工具" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/eyewind_sdk_text_size_l" android:textStyle="bold" android:textColor="@color/eyewind_sdk_white" android:gravity="center_vertical" android:id="@id/tvQuery" android:paddingLeft="@dimen/eyewind_sdk_margin_s" android:paddingRight="@dimen/eyewind_sdk_margin_s" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/eyewind_ui_billing_query" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:background="@color/eyewind_sdk_white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:background="@color/eyewind_sdk_white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/abtest_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/cardView" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/abtest_white" app:cardCornerRadius="@dimen/abtest_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:padding="@dimen/abtest_margin" android:layout_width="290.0dip" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/abtest_text_size_dialog_title" android:textColor="@color/abtest_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/abtest_margin_l" android:text="@string/abtest_login" android:textAllCaps="true" />
+            <EditText android:textSize="@dimen/abtest_text_size_m" android:gravity="center_vertical" android:id="@id/etToken" android:background="@drawable/abtest_login_edit" android:paddingLeft="@dimen/abtest_margin_s" android:paddingRight="@dimen/abtest_margin_s" android:layout_width="fill_parent" android:layout_height="@dimen/abtest_edit_height" android:layout_marginTop="@dimen/abtest_margin_l" android:layout_marginBottom="@dimen/abtest_margin_l" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

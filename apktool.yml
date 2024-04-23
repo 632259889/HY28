@@ -1,0 +1,109 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: PaperDraw_2.9.6_apkcombo.com.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- assets/dexopt/baseline.prof
+- mp4
+- png
+- jpeg
+- wav
+- jpg
+- webp
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '33'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: '8'
+  androidsupportmultidexversion.txt: '8'
+  billing.properties: '8'
+  core-common.properties: '8'
+  firebase-abt.properties: '8'
+  firebase-analytics.properties: '8'
+  firebase-annotations.properties: '8'
+  firebase-auth-interop.properties: '8'
+  firebase-auth.properties: '8'
+  firebase-config.properties: '8'
+  firebase-crashlytics.properties: '8'
+  firebase-encoders-json.properties: '8'
+  firebase-encoders-proto.properties: '8'
+  firebase-encoders.properties: '8'
+  firebase-installations-interop.properties: '8'
+  firebase-installations.properties: '8'
+  firebase-measurement-connector.properties: '8'
+  integrity.properties: '8'
+  kotlin-tooling-metadata.json: '8'
+  play-services-ads-base.properties: '8'
+  play-services-ads-identifier.properties: '8'
+  play-services-ads-lite.properties: '8'
+  play-services-ads.properties: '8'
+  play-services-appset.properties: '8'
+  play-services-auth-api-phone.properties: '8'
+  play-services-auth-base.properties: '8'
+  play-services-auth.properties: '8'
+  play-services-base.properties: '8'
+  play-services-basement.properties: '8'
+  play-services-fido.properties: '8'
+  play-services-measurement-api.properties: '8'
+  play-services-measurement-base.properties: '8'
+  play-services-measurement-impl.properties: '8'
+  play-services-measurement-sdk-api.properties: '8'
+  play-services-measurement-sdk.properties: '8'
+  play-services-measurement.properties: '8'
+  play-services-stats.properties: '8'
+  play-services-tasks.properties: '8'
+  recaptcha.properties: '8'
+  review.properties: '8'
+  transport-api.properties: '8'
+  transport-backend-cct.properties: '8'
+  transport-runtime.properties: '8'
+  user-messaging-platform.properties: '8'
+  freemarker/version.properties: '8'
+  freemarker/ext/beans/unsafeMethods.txt: '8'
+  freemarker/ext/jsp/web-app_2_2.dtd: '8'
+  freemarker/ext/jsp/web-app_2_3.dtd: '8'
+  freemarker/ext/jsp/web-app_2_4.xsd: '8'
+  freemarker/ext/jsp/web-app_2_5.xsd: '8'
+  freemarker/ext/jsp/web-jsptaglibrary_1_1.dtd: '8'
+  freemarker/ext/jsp/web-jsptaglibrary_1_2.dtd: '8'
+  freemarker/ext/jsp/web-jsptaglibrary_2_0.xsd: '8'
+  freemarker/ext/jsp/web-jsptaglibrary_2_1.xsd: '8'
+  google/protobuf/any.proto: '8'
+  google/protobuf/api.proto: '8'
+  google/protobuf/empty.proto: '8'
+  google/protobuf/field_mask.proto: '8'
+  google/protobuf/source_context.proto: '8'
+  google/protobuf/struct.proto: '8'
+  google/protobuf/timestamp.proto: '8'
+  google/protobuf/type.proto: '8'
+  google/protobuf/wrappers.proto: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+  org/json/CDL.java: '8'
+  org/json/Cookie.java: '8'
+  org/json/CookieList.java: '8'
+  org/json/HTTP.java: '8'
+  org/json/HTTPTokener.java: '8'
+  org/json/JSONArray.java: '8'
+  org/json/JSONException.java: '8'
+  org/json/JSONML.java: '8'
+  org/json/JSONObject.java: '8'
+  org/json/JSONString.java: '8'
+  org/json/JSONStringer.java: '8'
+  org/json/JSONTokener.java: '8'
+  org/json/JSONWriter.java: '8'
+  org/json/XML.java: '8'
+  org/json/XMLTokener.java: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.7.0
+versionInfo:
+  versionCode: '100'
+  versionName: 1.0.0

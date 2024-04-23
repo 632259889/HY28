@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <hhh.aaa.drawpad.DrawPadLayout android:id="@id/DrawboardLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <hhh.aaa.drawpad.DrawingBgView android:id="@id/drawingBg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <hhh.aaa.drawpad.DrawingView android:id="@id/drawingView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <hhh.aaa.drawpad.CatcheView android:id="@id/catcheView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <hhh.aaa.drawpad.TextDrawView android:id="@id/textDrawView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/textLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/reduction" android:background="@drawable/icon_reduction" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/icon_layer" android:background="@drawable/icon_layer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <hhh.aaa.LayerManagerLayout android:id="@id/layerManager" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:background="#ff000000" android:layout_width="@dimen/layermanager_w" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:alpha="0.8" />
+            <ImageView android:id="@id/layermanager_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/layermanager_add" />
+            <ImageView android:id="@id/layermanager_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/layermanager_delete" />
+        </hhh.aaa.LayerManagerLayout>
+    </hhh.aaa.drawpad.DrawPadLayout>
+    <hhh.aaa.ToolBar android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/toolbarLayout" android:background="@drawable/tool_bg" android:layout_width="fill_parent" android:layout_height="@dimen/tool_h" android:layout_alignParentBottom="true" />
+</merge>

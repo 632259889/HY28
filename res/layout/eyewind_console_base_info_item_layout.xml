@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@color/eyewind_sdk_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/eyewind_sdk_margin" android:paddingTop="@dimen/eyewind_sdk_margin_s" android:paddingRight="@dimen/eyewind_sdk_margin" android:paddingBottom="@dimen/eyewind_sdk_margin_s" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_toRightOf="@id/ivState">
+            <TextView android:textSize="@dimen/eyewind_sdk_text_size" android:textColor="@color/eyewind_sdk_black" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="测试名" />
+            <TextView android:textSize="@dimen/eyewind_sdk_text_size" android:textColor="@color/eyewind_sdk_color_on" android:gravity="center" android:id="@id/tvContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Key" android:layout_weight="1.0" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <CheckBox android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View android:background="@color/eyewind_sdk_line_gray" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</androidx.appcompat.widget.LinearLayoutCompat>

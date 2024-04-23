@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/feedback_root_layout" android:background="?feedbackDialogBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:textColor="?feedbackTextPrimaryColor" android:gravity="center" android:id="@id/feedback_title" android:layout_width="fill_parent" android:layout_height="@dimen/feedback_close_button_size" android:layout_marginTop="@dimen/feedback_margin_title_top" android:text="@string/feedback_in_app_hint_title" android:lines="1" app:autoSizeMaxTextSize="16.0sp" app:autoSizeMinTextSize="12.0sp" app:autoSizeTextType="uniform" />
+    <FrameLayout android:paddingBottom="@dimen/feedback_margin_big" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/feedback_title" android:layout_centerHorizontal="true">
+        <include layout="@layout/feedback_page_in_app_hint" />
+        <include android:visibility="gone" layout="@layout/feedback_page_in_app" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/feedback_close" android:background="@drawable/feedback_bg_button_circle" android:padding="6.0dip" android:layout_width="@dimen/feedback_close_button_size" android:layout_height="@dimen/feedback_close_button_size" android:layout_alignParentRight="true" app:srcCompat="@drawable/feedback_ic_close" />
+</RelativeLayout>

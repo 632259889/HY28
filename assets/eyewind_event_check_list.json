@@ -1,0 +1,281 @@
+[
+  {
+    "title": "ad_btnshow【激励】",
+    "eventType": "yifan",
+    "eventName": "ad_btnshow",
+    "parameter": {
+      "flags": "#nonull#",
+      "ad_id": "#nonull#",
+      "ad_type": "video",
+      "area_id": "#nonull#",
+      "ad_mediation": "#nonull#"
+    }
+  },
+  {
+    "title": "ad_call【激励】",
+    "eventType": "yifan",
+    "eventName": "ad_call",
+    "parameter": {
+      "flags": "#nonull#",
+      "ad_id": "#nonull#",
+      "ad_type": "video",
+      "area_id": "#nonull#",
+      "ad_mediation": "#nonull#"
+    }
+  },
+  {
+    "title": "ad_call【插屏】",
+    "eventType": "yifan",
+    "eventName": "ad_call",
+    "parameter": {
+      "flags": "#nonull#",
+      "ad_id": "#null#",
+      "ad_type": "interstitial",
+      "area_id": "#nonull#",
+      "ad_mediation": "#nonull#"
+    }
+  },
+  {
+    "title": "ad_call【Banner】",
+    "eventType": "yifan",
+    "eventName": "ad_call",
+    "parameter": {
+      "flags": "#nonull#",
+      "ad_id": "#null#",
+      "ad_type": "banner",
+      "area_id": "#nonull#",
+      "ad_mediation": "#nonull#"
+    }
+  },
+  {
+    "title": "ad_call【Native】",
+    "eventType": "yifan",
+    "eventName": "ad_call",
+    "parameter": {
+      "flags": "#nonull#",
+      "ad_id": "#null#",
+      "ad_type": "native",
+      "area_id": "#nonull#",
+      "ad_mediation": "#nonull#"
+    }
+  },
+  {
+    "title": "ad_show【激励】",
+    "eventType": "yifan",
+    "eventName": "ad_show",
+    "parameter": {
+      "ad_id": "#nonull#",
+      "ad_type": "video",
+      "ad_provider": "#nonull#",
+      "area_id": "#nonull#",
+      "ad_mediation": "#nonull#"
+    }
+  },
+  {
+    "title": "ad_show【插屏】",
+    "eventType": "yifan",
+    "eventName": "ad_show",
+    "parameter": {
+      "ad_id": "#null#",
+      "ad_type": "interstitial",
+      "ad_provider": "#nonull#",
+      "area_id": "#nonull#",
+      "ad_mediation": "#nonull#"
+    }
+  },
+  {
+    "title": "ad_show【Banner】",
+    "eventType": "yifan",
+    "eventName": "ad_show",
+    "parameter": {
+      "ad_id": "#null#",
+      "ad_type": "banner",
+      "ad_provider": "#nonull#",
+      "area_id": "#nonull#",
+      "ad_mediation": "#nonull#"
+    }
+  },
+  {
+    "title": "ad_show【Native】",
+    "eventType": "yifan",
+    "eventName": "ad_show",
+    "parameter": {
+      "ad_id": "#null#",
+      "ad_type": "native",
+      "ad_provider": "#nonull#",
+      "area_id": "#nonull#",
+      "ad_mediation": "#nonull#"
+    }
+  },
+  {
+    "title": "ad_show【Splash】",
+    "eventType": "yifan",
+    "eventName": "ad_show",
+    "parameter": {
+      "ad_id": "#null#",
+      "ad_type": "splash",
+      "ad_provider": "#nonull#",
+      "area_id": "#nonull#",
+      "ad_mediation": "#nonull#"
+    }
+  },
+  {
+    "title": "ad_revenue【激励】",
+    "eventType": "yifan",
+    "eventName": "ad_revenue",
+    "parameter": {
+      "ad_id": "#nonull#",
+      "ad_type": "video",
+      "ad_provider": "#nonull#",
+      "revenue": "#double#",
+      "area_id": "#nonull#",
+      "ad_mediation": "#nonull#"
+    }
+  },
+  {
+    "title": "ad_revenue【插屏】",
+    "eventType": "yifan",
+    "eventName": "ad_revenue",
+    "parameter": {
+      "ad_id": "#null#",
+      "ad_type": "interstitial",
+      "ad_provider": "#nonull#",
+      "revenue": "#double#",
+      "area_id": "#nonull#",
+      "ad_mediation": "#nonull#"
+    }
+  },
+  {
+    "title": "ad_revenue【Banner】",
+    "eventType": "yifan",
+    "eventName": "ad_revenue",
+    "parameter": {
+      "ad_id": "#null#",
+      "ad_type": "banner",
+      "ad_provider": "#nonull#",
+      "revenue": "#double#",
+      "area_id": "#nonull#",
+      "ad_mediation": "#nonull#"
+    }
+  },
+  {
+    "title": "ad_ok【激励】",
+    "eventType": "yifan",
+    "eventName": "ad_ok",
+    "parameter": {
+      "ad_type": "video",
+      "ad_provider": "#nonull#",
+      "area_id": "#nonull#",
+      "ad_mediation": "#nonull#"
+    }
+  },
+  {
+    "title": "pay_btnshow",
+    "eventType": "yifan",
+    "eventName": "pay_btnshow",
+    "parameter": {
+      "area_id": "#nonull#"
+    }
+  },
+  {
+    "title": "pay_start",
+    "eventType": "yifan",
+    "eventName": "pay_start",
+    "parameter": {
+      "item_id": "#nonull#",
+      "area_id": "#nonull#"
+    }
+  },
+  {
+    "title": "pay_cancel",
+    "eventType": "yifan",
+    "eventName": "pay_cancel",
+    "parameter": {
+      "area_id": "#nonull#"
+    }
+  },
+  {
+    "title": "pay_error",
+    "eventType": "yifan",
+    "eventName": "pay_error",
+    "parameter": {
+      "area_id": "#nonull#"
+    }
+  },
+  {
+    "title": "pay_ok",
+    "eventType": "yifan",
+    "eventName": "pay_ok",
+    "parameter": {
+      "item_id": "#nonull#",
+      "order_id": "#nonull#",
+      "area_id": "#nonull#"
+    }
+  },
+  {
+    "title": "太极埋点01" ,
+    "eventType": "firebase",
+    "eventName": "Total_Ads_Revenue_01",
+    "parameter": {
+      "currency": "#nonull#",
+      "value": "#double#"
+    }
+  },
+  {
+    "title": "太极埋点001" ,
+    "eventType": "firebase",
+    "eventName": "Total_Ads_Revenue_001",
+    "parameter": {
+      "currency": "#nonull#",
+      "value": "#double#"
+    }
+  },
+  {
+    "title": "太极埋点005" ,
+    "eventType": "firebase",
+    "eventName": "Total_Ads_Revenue_005",
+    "parameter": {
+      "currency": "#nonull#",
+      "value": "#double#"
+    }
+  },
+  {
+    "title": "ARO埋点【激励】" ,
+    "eventType": "firebase",
+    "eventName": "ad_impression",
+    "parameter": {
+      "ad_platform": "#nonull#",
+      "ad_unit_name": "#nonull#",
+      "ad_format": "Rewarded",
+      "ad_source": "#nonull#",
+      "currency": "#nonull#",
+      "value": "#double#"
+    }
+  },
+  {
+    "title": "ARO埋点【插屏】" ,
+    "eventType": "firebase",
+    "eventName": "ad_impression",
+    "parameter": {
+      "ad_platform": "#nonull#",
+      "ad_unit_name": "#nonull#",
+      "ad_format": "Interstitial",
+      "ad_source": "#nonull#",
+      "currency": "#nonull#",
+      "value": "#double#"
+    }
+  },
+  {
+    "title": "ARO埋点【Banner】" ,
+    "eventType": "firebase",
+    "eventName": "ad_impression",
+    "parameter": {
+      "ad_platform": "#nonull#",
+      "ad_unit_name": "#nonull#",
+      "ad_format": "Banner",
+      "ad_source": "#nonull#",
+      "currency": "#nonull#",
+      "value": "#double#"
+    }
+  }
+]
