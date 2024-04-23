@@ -227,7 +227,7 @@
 
     const-string v1, "playtutorial"
 
-    invoke-static {v0, v1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 2
     iget-object v0, p0, Lcam/wel/abc/view/n$g;->b:Lcam/wel/abc/view/n;

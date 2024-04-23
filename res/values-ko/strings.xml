@@ -27,7 +27,7 @@
     <string name="abc_shareactionprovider_share_with">공유 대상:</string>
     <string name="abc_shareactionprovider_share_with_application">%s과(와) 공유</string>
     <string name="abc_toolbar_collapse_description">접기</string>
-    <string name="app_name">Draws</string>
+    <string name="app_name">NewDrawS</string>
     <string name="applovin_agree_message">앱 사용을 시작하려면 \"계속하기\"을 누르십시오.</string>
     <string name="applovin_alt_privacy_policy_text" />
     <string name="applovin_continue_button_text">계속하기</string>
@@ -395,7 +395,7 @@
     <string name="setting_logout_title">데이터를 동기화하기 위해 로그인하십시오</string>
     <string name="setting_title">설정</string>
     <string name="share">공유</string>
-    <string name="share_text">Draws는 매우 흥미로운 그림 그리기 도구입니다. 지금 다운로드하세요! #Draws</string>
+    <string name="share_text">NewDrawS는 매우 흥미로운 그림 그리기 도구입니다. 지금 다운로드하세요! #NewDrawS</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscription_instructions">구독 지침</string>
     <string name="subscription_instructions_detailed">구독하면 모든 기능에 무제한 액세스할 수 있습니다. 구독이 종료되면 Google Play 스토어가 선택한 구독 방법에 따라 자동으로 갱신되며 관련 비용이 Google 계정에서 차감됩니다. Play 스토어 메뉴의 구독 옵션에서 구독을 취소할 수 있습니다.</string>

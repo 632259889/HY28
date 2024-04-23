@@ -1,6 +1,6 @@
 .class public Lz1/d;
 .super Ljava/lang/Object;
-.source "UmengHelper.java"
+# .source "UmengHelper.java"
 
 
 # direct methods
@@ -23,7 +23,7 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-static {p0, p1, p2, v0, p3}, Lcom/umeng/commonsdk/UMConfigure;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+    # invoke-static {p0, p1, p2, v0, p3}, Lcom/umeng/commonsdk/UMConfigure;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
     return-void
 .end method
@@ -32,7 +32,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Lcom/umeng/analytics/MobclickAgent;->onKillProcess(Landroid/content/Context;)V
+    # invoke-static {p0}, Lcom/umeng/analytics/MobclickAgent;->onKillProcess(Landroid/content/Context;)V
 
     return-void
 .end method
@@ -41,7 +41,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Lcom/umeng/analytics/MobclickAgent;->onPause(Landroid/content/Context;)V
+    # invoke-static {p0}, Lcom/umeng/analytics/MobclickAgent;->onPause(Landroid/content/Context;)V
 
     return-void
 .end method
@@ -50,7 +50,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Lcom/umeng/analytics/MobclickAgent;->onResume(Landroid/content/Context;)V
+    # invoke-static {p0}, Lcom/umeng/analytics/MobclickAgent;->onResume(Landroid/content/Context;)V
 
     return-void
 .end method
@@ -67,11 +67,11 @@
     invoke-static {}, Ls1/a;->l()Z
 
     move-result v0
-
-    invoke-static {v0}, Lcom/umeng/commonsdk/UMConfigure;->setLogEnabled(Z)V
-
-    .line 3
-    invoke-static {p0, p1, p2}, Lcom/umeng/commonsdk/UMConfigure;->preInit(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # invoke-static {v0}, Lcom/umeng/commonsdk/UMConfigure;->setLogEnabled(Z)V
+    #
+    # .line 3
+    # invoke-static {p0, p1, p2}, Lcom/umeng/commonsdk/UMConfigure;->preInit(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

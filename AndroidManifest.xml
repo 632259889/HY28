@@ -73,9 +73,9 @@
         <provider android:authorities="hhh.aaa" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/filepaths"/>
         </provider>
-        <meta-data android:name="UMENG_APPKEY" android:value="56fe04c967e58eb3fe0006a7"/>
+        <!-- <meta-data android:name="UMENG_APPKEY" android:value="56fe04c967e58eb3fe0006a7"/>
         <meta-data android:name="UMENG_MESSAGE_SECRET" android:value="b467dfd63f1baa1d783d20a678ab6b93"/>
-        <meta-data android:name="UMENG_CHANNEL" android:value="googleplay"/>
+        <meta-data android:name="UMENG_CHANNEL" android:value="googleplay"/> -->
         <activity android:configChanges="orientation|screenSize" android:name="hhh.aaa.Html5Activity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="true" android:name="cam.wel.abc.PrivacyPolicyKActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>

@@ -27,7 +27,7 @@
     <string name="abc_shareactionprovider_share_with">共有</string>
     <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
-    <string name="app_name">Draws</string>
+    <string name="app_name">NewDrawS</string>
     <string name="applovin_agree_message">アプリを利用するために「次へ」をクリックしてください。</string>
     <string name="applovin_alt_privacy_policy_text" />
     <string name="applovin_continue_button_text">次へ</string>
@@ -393,7 +393,7 @@
     <string name="setting_logout_title">データを同期するためにログインしてください</string>
     <string name="setting_title">設定</string>
     <string name="share">共有</string>
-    <string name="share_text">Drawsは非常に面白い描画ツールです。ダウンロードしてみてください！ #Draws</string>
+    <string name="share_text">NewDrawSは非常に面白い描画ツールです。ダウンロードしてみてください！ #NewDrawS</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscription_instructions">サブスクリプションの手順</string>
     <string name="subscription_instructions_detailed">購読すると、すべての機能に無制限にアクセスできます。購読が終了すると、Google Play ストアは選択した購読方法に従って自動的に更新され、関連する料金がGoogleアカウントから差し引かれます。Playストアのメニューの購読オプションから購読をキャンセルできます。</string>

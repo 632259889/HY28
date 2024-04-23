@@ -203,7 +203,7 @@
 
     const-string v1, "buy_success"
 
-    invoke-static {v0, v1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 8
     iget-object v0, p0, Lhhh/aaa/b$h;->b:Lhhh/aaa/b;

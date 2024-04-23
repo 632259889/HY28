@@ -68,15 +68,15 @@
 
 .field private final pluginConfig:Lcom/eyewind/lib/core/config/SdkLocalConfig$b;
 
-.field private umengKey:Ljava/lang/String;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-.end field
-
-.field private umengPushSecret:Ljava/lang/String;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-.end field
+# .field private umengKey:Ljava/lang/String;
+#     .annotation build Landroidx/annotation/Nullable;
+#     .end annotation
+# .end field
+#
+# .field private umengPushSecret:Ljava/lang/String;
+#     .annotation build Landroidx/annotation/Nullable;
+#     .end annotation
+# .end field
 
 
 # direct methods
@@ -822,27 +822,27 @@
     return-object v0
 .end method
 
-.method public getUmengKey()Ljava/lang/String;
-    .locals 1
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
+# .method public getUmengKey()Ljava/lang/String;
+#     .locals 1
+#     .annotation build Landroidx/annotation/Nullable;
+#     .end annotation
+#
+#     .line 1
+#     iget-object v0, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->umengKey:Ljava/lang/String;
+#
+#     return-object v0
+# .end method
 
-    .line 1
-    iget-object v0, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->umengKey:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public getUmengPushSecret()Ljava/lang/String;
-    .locals 1
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->umengPushSecret:Ljava/lang/String;
-
-    return-object v0
-.end method
+# .method public getUmengPushSecret()Ljava/lang/String;
+#     .locals 1
+#     .annotation build Landroidx/annotation/Nullable;
+#     .end annotation
+#
+#     .line 1
+#     iget-object v0, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->umengPushSecret:Ljava/lang/String;
+#
+#     return-object v0
+# .end method
 
 .method public init(Landroid/content/Context;)V
     .locals 2
@@ -1027,10 +1027,10 @@
 
     if-eqz p1, :cond_5
 
-    const-string/jumbo p1, "umeng"
-
-    .line 19
-    iput-object p1, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->configMode:Ljava/lang/String;
+    # const-string/jumbo p1, "umeng"
+    #
+    # .line 19
+    # iput-object p1, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->configMode:Ljava/lang/String;
 
     goto :goto_3
 
@@ -1066,26 +1066,26 @@
     if-eqz p1, :cond_2
 
     .line 2
-    iget-object v0, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->umengKey:Ljava/lang/String;
-
-    const-string/jumbo v1, "umengKey"
-
-    invoke-direct {p0, p1, v1, v0}, Lcom/eyewind/lib/core/config/SdkLocalConfig;->optString(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->umengKey:Ljava/lang/String;
-
-    .line 3
-    iget-object v0, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->umengPushSecret:Ljava/lang/String;
-
-    const-string/jumbo v1, "umengPushSecret"
-
-    invoke-direct {p0, p1, v1, v0}, Lcom/eyewind/lib/core/config/SdkLocalConfig;->optString(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->umengPushSecret:Ljava/lang/String;
+    # iget-object v0, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->umengKey:Ljava/lang/String;
+    #
+    # const-string/jumbo v1, "umengKey"
+    #
+    # invoke-direct {p0, p1, v1, v0}, Lcom/eyewind/lib/core/config/SdkLocalConfig;->optString(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    #
+    # move-result-object v0
+    #
+    # iput-object v0, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->umengKey:Ljava/lang/String;
+    #
+    # .line 3
+    # iget-object v0, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->umengPushSecret:Ljava/lang/String;
+    #
+    # const-string/jumbo v1, "umengPushSecret"
+    #
+    # invoke-direct {p0, p1, v1, v0}, Lcom/eyewind/lib/core/config/SdkLocalConfig;->optString(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    #
+    # move-result-object v0
+    #
+    # iput-object v0, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->umengPushSecret:Ljava/lang/String;
 
     .line 4
     iget-object v0, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->adjustKey:Ljava/lang/String;
@@ -1656,45 +1656,45 @@
     return-object p0
 .end method
 
-.method public setUmengKey(Ljava/lang/String;)Lcom/eyewind/lib/core/config/SdkLocalConfig;
-    .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
+# .method public setUmengKey(Ljava/lang/String;)Lcom/eyewind/lib/core/config/SdkLocalConfig;
+#     .locals 1
+#     .param p1    # Ljava/lang/String;
+#         .annotation build Landroidx/annotation/Nullable;
+#         .end annotation
+#     .end param
+#
+#     .line 1
+#     iput-object p1, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->umengKey:Ljava/lang/String;
+#
+#     if-eqz p1, :cond_0
+#
+#     .line 2
+#     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
+#
+#     move-result p1
+#
+#     if-nez p1, :cond_0
+#
+#     .line 3
+#     iget-object p1, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->pluginConfig:Lcom/eyewind/lib/core/config/SdkLocalConfig$b;
+#
+#     const/4 v0, 0x1
+#
+#     invoke-virtual {p1, v0}, Lcom/eyewind/lib/core/config/SdkLocalConfig$b;->C(Z)Lcom/eyewind/lib/core/config/SdkLocalConfig$b;
+#
+#     :cond_0
+#     return-object p0
+# .end method
 
-    .line 1
-    iput-object p1, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->umengKey:Ljava/lang/String;
-
-    if-eqz p1, :cond_0
-
-    .line 2
-    invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
-
-    move-result p1
-
-    if-nez p1, :cond_0
-
-    .line 3
-    iget-object p1, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->pluginConfig:Lcom/eyewind/lib/core/config/SdkLocalConfig$b;
-
-    const/4 v0, 0x1
-
-    invoke-virtual {p1, v0}, Lcom/eyewind/lib/core/config/SdkLocalConfig$b;->C(Z)Lcom/eyewind/lib/core/config/SdkLocalConfig$b;
-
-    :cond_0
-    return-object p0
-.end method
-
-.method public setUmengPushSecret(Ljava/lang/String;)Lcom/eyewind/lib/core/config/SdkLocalConfig;
-    .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-
-    .line 1
-    iput-object p1, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->umengPushSecret:Ljava/lang/String;
-
-    return-object p0
-.end method
+# .method public setUmengPushSecret(Ljava/lang/String;)Lcom/eyewind/lib/core/config/SdkLocalConfig;
+#     .locals 0
+#     .param p1    # Ljava/lang/String;
+#         .annotation build Landroidx/annotation/Nullable;
+#         .end annotation
+#     .end param
+#
+#     .line 1
+#     iput-object p1, p0, Lcom/eyewind/lib/core/config/SdkLocalConfig;->umengPushSecret:Ljava/lang/String;
+#
+#     return-object p0
+# .end method

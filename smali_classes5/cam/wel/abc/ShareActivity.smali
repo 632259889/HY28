@@ -206,7 +206,7 @@
     sget-object v0, Lhhh/aaa/util/SocialMedia;->f:Lhhh/aaa/util/SocialMedia;
 
     .line 6
-    invoke-static {p0, p1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {p0, p1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -309,7 +309,7 @@
     sget-object v0, Lhhh/aaa/util/SocialMedia;->d:Lhhh/aaa/util/SocialMedia;
 
     .line 19
-    invoke-static {p0, p1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {p0, p1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -331,7 +331,7 @@
     const-string p1, "google_plus"
 
     .line 23
-    invoke-static {p0, p1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {p0, p1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -345,7 +345,7 @@
     sget-object v0, Lhhh/aaa/util/SocialMedia;->e:Lhhh/aaa/util/SocialMedia;
 
     .line 26
-    invoke-static {p0, p1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {p0, p1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -499,7 +499,7 @@
     const-string p1, "share"
 
     .line 7
-    invoke-static {p0, p1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {p0, p1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
 .end method

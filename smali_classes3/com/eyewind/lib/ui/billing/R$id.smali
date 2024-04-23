@@ -1379,11 +1379,11 @@
 
 .field public static final stateTagTaichi:I = 0x7f0b04e7
 
-.field public static final stateTagUmeng:I = 0x7f0b04e8
-
-.field public static final stateTagUmengApm:I = 0x7f0b04e9
-
-.field public static final stateTagUmengConfig:I = 0x7f0b04ea
+# .field public static final stateTagUmeng:I = 0x7f0b04e8
+#
+# .field public static final stateTagUmengApm:I = 0x7f0b04e9
+#
+# .field public static final stateTagUmengConfig:I = 0x7f0b04ea
 
 .field public static final stateTagYFanEvent:I = 0x7f0b04eb
 

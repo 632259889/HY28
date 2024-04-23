@@ -27,7 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
     <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
     <string name="abc_toolbar_collapse_description">Recolher</string>
-    <string name="app_name">Draws</string>
+    <string name="app_name">NewDrawS</string>
     <string name="buy">Comprar</string>
     <string name="cancel">Cancelar</string>
     <string name="clear_all">Limpar tela?</string>
@@ -301,7 +301,7 @@ Para conectar sua conta do %2$s com este e-mail, é necessário abrir o link no 
     <string name="setting_logout_title">Faça login para sincronizar os dados</string>
     <string name="setting_title">Configurações</string>
     <string name="share">Compartilhar</string>
-    <string name="share_text">Draws é uma ferramenta de desenho muito interessante. Venha e faça o download! #Draws</string>
+    <string name="share_text">NewDrawS é uma ferramenta de desenho muito interessante. Venha e faça o download! #NewDrawS</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscription_instructions">Instruções de assinatura</string>
     <string name="subscription_instructions_detailed">Com uma assinatura, você tem acesso ilimitado a todas as funcionalidades. Após o término da assinatura, a Google Play Store será renovada automaticamente de acordo com o método de assinatura que você selecionou, e as taxas relevantes serão deduzidas de sua conta do Google. Você pode cancelar a assinatura na opção de assinatura no menu da Play Store.</string>

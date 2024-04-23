@@ -366,7 +366,7 @@
     .line 5
     sget-object v0, Lcom/eyewind/lib/config/b;->d:Lcom/eyewind/lib/config/b$c;
 
-    invoke-static {v0}, Lo1/f;->b(Lcom/eyewind/lib/config/b$c;)V
+    # invoke-static {v0}, Lo1/f;->b(Lcom/eyewind/lib/config/b$c;)V
 
     .line 6
     :cond_0

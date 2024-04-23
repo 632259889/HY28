@@ -23,7 +23,7 @@
 # instance fields
 .field private mClickAnimation:Landroidx/core/view/ViewPropertyAnimatorCompat;
 
-.field private mDrawsInPressedState:Z
+.field private mNewDrawsInPressedState:Z
 
 .field private mHijackFocus:Z
 
@@ -129,7 +129,7 @@
     const/4 v0, 0x0
 
     .line 1
-    iput-boolean v0, p0, Landroidx/appcompat/widget/DropDownListView;->mDrawsInPressedState:Z
+    iput-boolean v0, p0, Landroidx/appcompat/widget/DropDownListView;->mNewDrawsInPressedState:Z
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/ListView;->setPressed(Z)V
@@ -437,7 +437,7 @@
     const/4 v0, 0x1
 
     .line 1
-    iput-boolean v0, p0, Landroidx/appcompat/widget/DropDownListView;->mDrawsInPressedState:Z
+    iput-boolean v0, p0, Landroidx/appcompat/widget/DropDownListView;->mNewDrawsInPressedState:Z
 
     .line 2
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
@@ -564,11 +564,11 @@
     return-void
 .end method
 
-.method private touchModeDrawsInPressedStateCompat()Z
+.method private touchModeNewDrawsInPressedStateCompat()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/widget/DropDownListView;->mDrawsInPressedState:Z
+    iget-boolean v0, p0, Landroidx/appcompat/widget/DropDownListView;->mNewDrawsInPressedState:Z
 
     return v0
 .end method
@@ -584,7 +584,7 @@
     if-eqz v0, :cond_0
 
     .line 2
-    invoke-direct {p0}, Landroidx/appcompat/widget/DropDownListView;->touchModeDrawsInPressedStateCompat()Z
+    invoke-direct {p0}, Landroidx/appcompat/widget/DropDownListView;->touchModeNewDrawsInPressedStateCompat()Z
 
     move-result v1
 

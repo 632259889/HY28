@@ -288,7 +288,7 @@
     <style name="InneractiveAppTheme.Home" parent="@android:style/Theme.NoTitleBar.Fullscreen">
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:windowTranslucentNavigation">true</item>
-        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowNewDrawSSystemBarBackgrounds">true</item>
     </style>
     <style name="MaterialAlertDialog.MaterialComponents.Picker.Date.Calendar" parent="@android:style/Widget.DeviceDefault.DatePicker">
         <item name="android:headerBackground">?colorPrimary</item>

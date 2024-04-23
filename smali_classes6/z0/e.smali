@@ -1,6 +1,6 @@
 .class public final Lz0/e;
 .super Lz0/d;
-.source "UmengPlatform.kt"
+# .source "UmengPlatform.kt"
 
 
 # annotations
@@ -49,16 +49,18 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {}, Lcom/umeng/cconfig/UMRemoteConfig;->getInstance()Lcom/umeng/cconfig/UMRemoteConfig;
-
-    move-result-object v0
+    # invoke-static {}, Lcom/umeng/cconfig/UMRemoteConfig;->getInstance()Lcom/umeng/cconfig/UMRemoteConfig;
+    #
+    # move-result-object v0
+    const/4 v0,0x0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/umeng/cconfig/UMRemoteConfig;->getConfigValue(Ljava/lang/String;)Ljava/lang/String;
+    # invoke-virtual {v0, p1}, Lcom/umeng/cconfig/UMRemoteConfig;->getConfigValue(Ljava/lang/String;)Ljava/lang/String;
+    #
+    # move-result-object p1
 
-    move-result-object p1
-
+    const/4 p1,0x0
     if-eqz p1, :cond_0
 
     new-instance v0, Ly2/c;

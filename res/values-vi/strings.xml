@@ -27,7 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Chia sẻ với</string>
     <string name="abc_shareactionprovider_share_with_application">Chia sẻ với %s</string>
     <string name="abc_toolbar_collapse_description">Thu gọn</string>
-    <string name="app_name">Draws</string>
+    <string name="app_name">NewDrawS</string>
     <string name="bottomsheet_action_expand_halfway">Mở rộng một nửa</string>
     <string name="buy">Mua</string>
     <string name="cancel">Hủy bỏ</string>
@@ -371,7 +371,7 @@ Nếu bạn vẫn muốn kết nối với tài khoản %1$s của mình, hãy m
     <string name="setting_logout_title">Đăng nhập để đồng bộ hóa dữ liệu</string>
     <string name="setting_title">Cài đặt</string>
     <string name="share">Chia sẻ</string>
-    <string name="share_text">Draws là một công cụ vẽ rất thú vị. Hãy tải về và trải nghiệm ngay! #Draws</string>
+    <string name="share_text">NewDrawS là một công cụ vẽ rất thú vị. Hãy tải về và trải nghiệm ngay! #NewDrawS</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscription_instructions">Hướng dẫn đăng ký</string>
     <string name="subscription_instructions_detailed">Với một gói đăng ký, bạn có quyền truy cập không giới hạn vào tất cả các tính năng. Sau khi gói đăng ký kết thúc, Google Play Store sẽ tự động gia hạn theo phương thức đăng ký bạn đã chọn và các khoản phí liên quan sẽ được trừ từ tài khoản Google của bạn. Bạn có thể hủy đăng ký từ tùy chọn đăng ký trong menu của Play Store.</string>

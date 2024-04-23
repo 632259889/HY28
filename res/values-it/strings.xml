@@ -27,7 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Condividi con</string>
     <string name="abc_shareactionprovider_share_with_application">Condividi tramite %s</string>
     <string name="abc_toolbar_collapse_description">Comprimi</string>
-    <string name="app_name">Draws</string>
+    <string name="app_name">NewDrawS</string>
     <string name="bottomsheet_action_expand_halfway">Espandi a metà</string>
     <string name="buy">Acquista</string>
     <string name="cancel">Annulla</string>
@@ -371,7 +371,7 @@ Per collegare correttamente l'account %2$s a questo indirizzo email, devi aprire
     <string name="setting_logout_title">Accedi per sincronizzare i dati</string>
     <string name="setting_title">Impostazioni</string>
     <string name="share">Condividi</string>
-    <string name="share_text">Draws è un interessante strumento di disegno. Scaricalo ora! #Draws</string>
+    <string name="share_text">NewDrawS è un interessante strumento di disegno. Scaricalo ora! #NewDrawS</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscription_instructions">"Lstruzioni per I'abbonamento"</string>
     <string name="subscription_instructions_detailed">"Con un abbonamento, hai accesso illimitato a tutte le funzionalità. Dopo la scadenza dell'abbonamento, il Google Play Store si rinnoverà automaticamente secondo il metodo di abbonamento che hai selezionato, e le relative tariffe saranno addebitate sul tuo account Google. Puoi annullare l'abbonamento dall'opzione di abbonamento nel menu del Play Store."</string>

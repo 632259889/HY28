@@ -6723,8 +6723,8 @@
     <public type="string" name="sdkX_splashId" id="0x7f1302bf" />
     <public type="string" name="sdkX_splashTitle" id="0x7f1302c0" />
     <public type="string" name="sdkX_terms_url" id="0x7f1302c1" />
-    <public type="string" name="sdkX_umengId" id="0x7f1302c2" />
-    <public type="string" name="sdkX_umengPushSecret" id="0x7f1302c3" />
+    <!-- <public type="string" name="sdkX_umengId" id="0x7f1302c2" />
+    <public type="string" name="sdkX_umengPushSecret" id="0x7f1302c3" /> -->
     <public type="string" name="sdkX_videoBizId" id="0x7f1302c4" />
     <public type="string" name="sdkX_videoId" id="0x7f1302c5" />
     <public type="string" name="sdkx_plugin_version" id="0x7f1302c6" />

@@ -1415,9 +1415,9 @@
 
 .field public static final sdkX_terms_url:I = 0x7f1302c1
 
-.field public static final sdkX_umengId:I = 0x7f1302c2
-
-.field public static final sdkX_umengPushSecret:I = 0x7f1302c3
+# .field public static final sdkX_umengId:I = 0x7f1302c2
+#
+# .field public static final sdkX_umengPushSecret:I = 0x7f1302c3
 
 .field public static final sdkX_videoBizId:I = 0x7f1302c4
 

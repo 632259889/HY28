@@ -7,9 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lo1/f;->b(Lcom/eyewind/lib/config/b$c;)V
-.end annotation
+# .annotation system Ldalvik/annotation/EnclosingMethod;
+#     value = Lo1/f;->b(Lcom/eyewind/lib/config/b$c;)V
+# .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0

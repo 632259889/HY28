@@ -106,9 +106,11 @@
     if-eqz v0, :cond_9
 
     .line 3
-    invoke-static {p0}, Lo1/f;->a(Ljava/lang/String;)Ljava/lang/String;
+    # invoke-static {p0}, Lo1/f;->a(Ljava/lang/String;)Ljava/lang/String;
+    #
+    # move-result-object p0
 
-    move-result-object p0
+    const/4 p0,0x0
 
     if-eqz p0, :cond_5
 
@@ -265,9 +267,11 @@
     if-eqz v0, :cond_11
 
     .line 18
-    invoke-static {p0}, Lo1/f;->a(Ljava/lang/String;)Ljava/lang/String;
+    # invoke-static {p0}, Lo1/f;->a(Ljava/lang/String;)Ljava/lang/String;
+    #
+    # move-result-object v0
 
-    move-result-object v0
+    const-string v0,"abc"
 
     goto :goto_7
 

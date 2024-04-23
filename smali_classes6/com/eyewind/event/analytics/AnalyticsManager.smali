@@ -335,13 +335,13 @@
     if-nez p3, :cond_1
 
     .line 2
-    invoke-static {p1, p2}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {p1, p2}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 3
     :cond_1
-    invoke-static {p1, p2, p3}, Lcom/umeng/analytics/MobclickAgent;->onEventObject(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)V
+    # invoke-static {p1, p2, p3}, Lcom/umeng/analytics/MobclickAgent;->onEventObject(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)V
 
     :goto_0
     const/4 p1, 0x1

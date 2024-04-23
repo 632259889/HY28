@@ -454,7 +454,7 @@
 
     const-string v1, "pen_rubber"
 
-    invoke-static {v0, v1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 10
     iget-object v0, p0, Lhhh/aaa/ToolBar;->B:Lhhh/aaa/drawpad/DrawingView;
@@ -487,7 +487,7 @@
 
     const-string v1, "pen_ruler"
 
-    invoke-static {v0, v1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 14
     iget-object v0, p0, Lhhh/aaa/ToolBar;->B:Lhhh/aaa/drawpad/DrawingView;
@@ -520,7 +520,7 @@
 
     const-string v2, "pen_paintbrushes"
 
-    invoke-static {v0, v2}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {v0, v2}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 18
     iget-object v0, p0, Lhhh/aaa/ToolBar;->B:Lhhh/aaa/drawpad/DrawingView;
@@ -553,7 +553,7 @@
 
     const-string v2, "pen_fountain"
 
-    invoke-static {v0, v2}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {v0, v2}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 22
     iget-object v0, p0, Lhhh/aaa/ToolBar;->B:Lhhh/aaa/drawpad/DrawingView;
@@ -586,7 +586,7 @@
 
     const-string v2, "pen_ocrayon"
 
-    invoke-static {v0, v2}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {v0, v2}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 26
     iget-object v0, p0, Lhhh/aaa/ToolBar;->B:Lhhh/aaa/drawpad/DrawingView;
@@ -619,7 +619,7 @@
 
     const-string v3, "pen_watercolor"
 
-    invoke-static {v0, v3}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {v0, v3}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 30
     iget-object v0, p0, Lhhh/aaa/ToolBar;->B:Lhhh/aaa/drawpad/DrawingView;
@@ -652,7 +652,7 @@
 
     const-string v3, "pen_lnk"
 
-    invoke-static {v0, v3}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {v0, v3}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 34
     iget-object v0, p0, Lhhh/aaa/ToolBar;->B:Lhhh/aaa/drawpad/DrawingView;
@@ -685,7 +685,7 @@
 
     const-string v4, "pen_oilpen"
 
-    invoke-static {v0, v4}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {v0, v4}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 38
     iget-object v0, p0, Lhhh/aaa/ToolBar;->B:Lhhh/aaa/drawpad/DrawingView;
@@ -718,7 +718,7 @@
 
     const-string v4, "pen_brush"
 
-    invoke-static {v0, v4}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {v0, v4}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 42
     iget-object v0, p0, Lhhh/aaa/ToolBar;->B:Lhhh/aaa/drawpad/DrawingView;
@@ -751,7 +751,7 @@
 
     const-string v4, "pen_pencil"
 
-    invoke-static {v0, v4}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {v0, v4}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 46
     iget-object v0, p0, Lhhh/aaa/ToolBar;->B:Lhhh/aaa/drawpad/DrawingView;
@@ -788,7 +788,7 @@
 
     const-string v4, "pen_dryink"
 
-    invoke-static {v0, v4}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {v0, v4}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 50
     iget-object v0, p0, Lhhh/aaa/ToolBar;->B:Lhhh/aaa/drawpad/DrawingView;
@@ -843,7 +843,7 @@
 
     const-string v4, "pen_inkjet"
 
-    invoke-static {v0, v4}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {v0, v4}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 56
     iget-object v0, p0, Lhhh/aaa/ToolBar;->B:Lhhh/aaa/drawpad/DrawingView;
@@ -898,7 +898,7 @@
 
     const-string v4, "pen_greasepaint"
 
-    invoke-static {v0, v4}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {v0, v4}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 62
     iget-object v0, p0, Lhhh/aaa/ToolBar;->B:Lhhh/aaa/drawpad/DrawingView;
@@ -953,7 +953,7 @@
 
     const-string v4, "pen_magic"
 
-    invoke-static {v0, v4}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {v0, v4}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 68
     iget-object v0, p0, Lhhh/aaa/ToolBar;->B:Lhhh/aaa/drawpad/DrawingView;

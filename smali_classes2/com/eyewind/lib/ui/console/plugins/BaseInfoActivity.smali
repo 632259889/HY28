@@ -373,7 +373,7 @@
 
     move-result v0
 
-    const-string v1, "umeng_key"
+    # const-string v1, "umeng_key"
 
     const/4 v2, 0x0
 
@@ -384,11 +384,11 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/eyewind/lib/core/config/SdkLocalConfig;->getUmengKey()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-direct {p0, v1, v0}, Lcom/eyewind/lib/ui/console/plugins/BaseInfoActivity;->A(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-virtual {v0}, Lcom/eyewind/lib/core/config/SdkLocalConfig;->getUmengKey()Ljava/lang/String;
+    #
+    # move-result-object v0
+    #
+    # invoke-direct {p0, v1, v0}, Lcom/eyewind/lib/ui/console/plugins/BaseInfoActivity;->A(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 

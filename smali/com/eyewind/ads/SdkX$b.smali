@@ -88,7 +88,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {v0, v1}, Lcom/umeng/commonsdk/UMConfigure;->submitPolicyGrantResult(Landroid/content/Context;Z)V
+    # invoke-static {v0, v1}, Lcom/umeng/commonsdk/UMConfigure;->submitPolicyGrantResult(Landroid/content/Context;Z)V
 
     .line 2
     iget-object v0, p0, Lcom/eyewind/ads/SdkX$b;->b:La8/l;

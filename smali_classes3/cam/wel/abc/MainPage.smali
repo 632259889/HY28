@@ -69,7 +69,7 @@
 
 .field public static final START_LOAD_WIDGET:I = 0x3eb
 
-.field public static isUmengOK:Ljava/lang/Boolean;
+# .field public static isUmengOK:Ljava/lang/Boolean;
 
 .field static sDateFormat:Ljava/text/DateFormat;
 
@@ -144,7 +144,7 @@
     .line 4
     sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    sput-object v0, Lcam/wel/abc/MainPage;->isUmengOK:Ljava/lang/Boolean;
+    # sput-object v0, Lcam/wel/abc/MainPage;->isUmengOK:Ljava/lang/Boolean;
 
     const-string v0, "android.permission.WRITE_EXTERNAL_STORAGE"
 
@@ -1204,9 +1204,9 @@
 
     move-result-object p1
 
-    sget-object v1, Lcom/umeng/analytics/MobclickAgent$EScenarioType;->E_UM_NORMAL:Lcom/umeng/analytics/MobclickAgent$EScenarioType;
-
-    invoke-static {p1, v1}, Lcom/umeng/analytics/MobclickAgent;->setScenarioType(Landroid/content/Context;Lcom/umeng/analytics/MobclickAgent$EScenarioType;)V
+    # sget-object v1, Lcom/umeng/analytics/MobclickAgent$EScenarioType;->E_UM_NORMAL:Lcom/umeng/analytics/MobclickAgent$EScenarioType;
+    #
+    # invoke-static {p1, v1}, Lcom/umeng/analytics/MobclickAgent;->setScenarioType(Landroid/content/Context;Lcom/umeng/analytics/MobclickAgent$EScenarioType;)V
 
     .line 8
     invoke-virtual {p0}, Lcom/tjhello/page/BasePageActivity;->getDocker()Lcom/tjhello/page/PageDocker;
@@ -1351,7 +1351,7 @@
     .line 26
     sget-object p1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    sput-object p1, Lcam/wel/abc/MainPage;->isUmengOK:Ljava/lang/Boolean;
+    # sput-object p1, Lcam/wel/abc/MainPage;->isUmengOK:Ljava/lang/Boolean;
 
     .line 27
     invoke-direct {p0}, Lcam/wel/abc/MainPage;->initBilling()V
@@ -1398,7 +1398,7 @@
     const-string v0, "main"
 
     .line 2
-    invoke-static {v0}, Lcom/umeng/analytics/MobclickAgent;->onPageEnd(Ljava/lang/String;)V
+    # invoke-static {v0}, Lcom/umeng/analytics/MobclickAgent;->onPageEnd(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -1502,7 +1502,7 @@
     const-string v0, "main"
 
     .line 2
-    invoke-static {v0}, Lcom/umeng/analytics/MobclickAgent;->onPageStart(Ljava/lang/String;)V
+    # invoke-static {v0}, Lcom/umeng/analytics/MobclickAgent;->onPageStart(Ljava/lang/String;)V
 
     .line 3
     invoke-static {}, Lz4/c;->f()Lz4/c;

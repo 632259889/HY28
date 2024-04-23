@@ -1545,7 +1545,7 @@
 
     move-result-object v5
 
-    invoke-static {v5, v0, v4}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)V
+    # invoke-static {v5, v0, v4}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)V
 
     .line 20
     invoke-static {}, Lz4/c;->f()Lz4/c;
