@@ -249,7 +249,7 @@
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v5, "\nhttps://play.google.com/store/apps/details?id=www.iii.xxx.ddd"
+    const-string v5, "\nhttps://play.google.com/store/apps/details?id=new.draw.sss"
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

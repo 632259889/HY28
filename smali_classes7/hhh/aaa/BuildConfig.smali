@@ -4,7 +4,7 @@
 
 
 # static fields
-.field public static final APPLICATION_ID:Ljava/lang/String; = "www.iii.xxx.ddd"
+.field public static final APPLICATION_ID:Ljava/lang/String; = "new.draw.sss"
 
 .field public static final BUILD_TYPE:Ljava/lang/String; = "release"
 
