@@ -1,4 +1,4 @@
-name: Build and Sign APK from Smali
+name: Build and Sign APK from Smali To Tags
 
 on:
   push:
@@ -110,8 +110,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
         with:
-          tag_name: ${{ secrets.VERSION_NAME }}
-          release_name: Release ${{ secrets.VERSION_NAME }}
+          tag_name: ${{ secrets.TAGS_NAME }}
+          release_name: Release ${{ secrets.TAGS_NAME }}
           commit: main
 
       - name: Upload Release Asset

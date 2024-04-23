@@ -1,4 +1,4 @@
-name: Build and Sign APK from Smali
+name: Build and Sign APK from Smali To Google Play
 
 on:
   push:
@@ -133,26 +133,3 @@ jobs:
       - name: Deploy to Google Play
         run: fastlane supply --json_key_file=play-store-credentials.json --aab=release.aab
         working-directory: ../new_apk_dir
-
-
-        #上传release
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        with:
-          tag_name: ${{ secrets.VERSION_NAME }}
-          release_name: Release ${{ secrets.VERSION_NAME }}
-          commit: main
-
-      - name: Upload Release Asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}{?name,label}
-          asset_path: ../new_apk_dir/release.aab
-          asset_name: release.aab
-          asset_content_type: application/octet-stream
-          asset_label: important
