@@ -1,0 +1,157 @@
+name: Build and Sign APK from Smali
+
+on:
+  push:
+    tags:
+      - google*
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up JDK 16
+        uses: actions/setup-java@v3
+        with:
+          java-version: '16'
+          distribution: 'temurin'
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+        with:
+          cmdline-tools-version: 9862592
+
+      - name: Install Build-tools & platforms
+        run: sdkmanager "build-tools;34.0.0"
+
+      - name: Download rescource
+        run: |
+          wget https://github.com/632259889/testapk/releases/download/v1.0/apktool.zip -O apktool.zip
+          wget https://github.com/632259889/testapk/releases/download/v1.1/android.jar -O android.jar
+          wget https://github.com/632259889/testapk/releases/download/v1.3/bundletool-all-1.15.6.jar -O bundletool.jar
+          wget ${{ secrets.KEYSTORE_URL }} -O release.keystore
+          wget ${{ secrets.JSON_URL }} -O auth.json
+        working-directory: ..
+
+      - name: Unzip apktool
+        run: unzip apktool.zip
+        working-directory: ..
+
+      #smali 代码转成apk
+      - name: Build APK from Smali
+        run: java -jar ../apktool/apktool.jar b ./ --use-aapt2 -o ../a.apk
+
+      # - name: Align APK
+      #   run: /Users/runner/Library/Android/sdk/build-tools/34.0.0/zipalign -v 4 a.apk a_align.apk
+      #   working-directory: ..
+
+      # - name: Sign APK
+      #   run: /Users/runner/Library/Android/sdk/build-tools/34.0.0/apksigner sign --ks release.keystore --ks-pass pass:'${{ secrets.KEY_STORE_PASSWORD }}' --out a_align_sign.apk a_align.apk
+      #   working-directory: ..
+
+      #apk转成aab如下
+      #1.apktool解压apk
+      - name: Apktool Unzip AAB
+        run: java -jar ./apktool/apktool.jar d a.apk -s -o old_apk_dir
+        working-directory: ..
+
+      #2.aapt2 编译生成*.flat文件集合
+      - name: AAPT2 Compile Res
+        run: /Users/runner/Library/Android/sdk/build-tools/34.0.0/aapt2 compile --dir old_apk_dir/res -o compiled_res.zip
+        working-directory: ..
+
+      #3.aapt2 关联资源
+      - name: AAPT2 Link Res
+        run: |
+          /Users/runner/Library/Android/sdk/build-tools/34.0.0/aapt2 link --proto-format -o base.apk -I ./android.jar --min-sdk-version '${{ secrets.SDK_MIN }}' --target-sdk-version '${{ secrets.SDK_TARGET }}' --version-code '${{ secrets.VERSION_CODE }}' --version-name '${{ secrets.VERSION_NAME }}' --manifest old_apk_dir/AndroidManifest.xml -R compiled_res.zip --auto-add-overlay
+          unzip base.apk -d new_apk_dir
+        working-directory: ..
+
+      #4.创建对应的结构目录
+      - name: Create App Bundle Destory
+        run: |
+          mkdir manifest
+          mkdir root
+          mkdir root/META-INF
+          mkdir dex
+          cp AndroidManifest.xml ./manifest
+          rm -rf AndroidManifest.xml
+          cp -r ../old_apk_dir/lib .
+          cp -r ../old_apk_dir/assets .
+          cp -r ../old_apk_dir/unknown/* ./root/
+          cp -r ../old_apk_dir/kotlin ./root
+          cp -r ../old_apk_dir/*.dex ./dex
+          zip -r new_apk.zip .
+        working-directory: ../new_apk_dir
+
+        #5.利用budletool编译aab
+      - name: Bundletool Zip To AAB
+        run: |
+          java -jar ../bundletool.jar build-bundle --modules=new_apk.zip --output=release.aab
+          pwd
+          ls
+        working-directory: ../new_apk_dir
+
+        #6.利用jarsigner对aab进行签名
+      - name: Sign AAB
+        run: |
+          jarsigner -digestalg SHA-256 -sigalg SHA256withRSA -keystore ./release.keystore -storepass '${{ secrets.KEY_STORE_PASSWORD }}' -keypass '${{ secrets.KEY_PASSWORD }}' ./new_apk_dir/release.aab '${{ secrets.ALIAS }}'
+          pwd
+          ls
+        working-directory: ..
+
+
+        #上传aab文件到google play
+      - name: Install Fastlane
+        run: brew install fastlane
+        working-directory: ../new_apk_dir
+
+      - name: Fastlane Init
+        run: |
+          mkdir fastlane
+          cd fastlane
+          echo "json_key_file("/Users/runner/work/testapk/new_apk_dir/auth.json")" > Appfile
+          echo "package_name("'${{ secrets.PACKAGENAME }}'")" >> Appfile
+          echo "default_platform(:android)" > Fastfile
+          echo "" >> Fastfile
+          echo "platform :android do" >> Fastfile
+          echo "  desc "Deploy a new version to the Google Play"" >> Fastfile
+          echo "  lane :deploy do" >> Fastfile
+          echo "    upload_to_play_store" >> Fastfile
+          echo "  end" >> Fastfile
+          echo "end" >> Fastfile
+        working-directory: ../new_apk_dir
+
+      - name: Test Google Play Connect
+        run: fastlane run validate_play_store_json_key json_key:../auth.json
+        working-directory: ../new_apk_dir
+
+      - name: Deploy to Google Play
+        run: fastlane supply --json_key_file=play-store-credentials.json --aab=release.aab
+        working-directory: ../new_apk_dir
+
+
+        #上传release
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        with:
+          tag_name: ${{ secrets.VERSION_NAME }}
+          release_name: Release ${{ secrets.VERSION_NAME }}
+          commit: main
+
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}{?name,label}
+          asset_path: ../new_apk_dir/release.aab
+          asset_name: release.aab
+          asset_content_type: application/octet-stream
+          asset_label: important
