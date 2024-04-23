@@ -27,6 +27,7 @@ jobs:
       - name: Install Build-tools & platforms
         run: sdkmanager "build-tools;34.0.0"
 
+      ##
       - name: Download rescource
         run: |
           wget https://github.com/632259889/testapk/releases/download/v1.0/apktool.zip -O apktool.zip
