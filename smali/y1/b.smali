@@ -1461,10 +1461,11 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/eyewind/lib/core/config/SdkLocalConfig;->getUmengKey()Ljava/lang/String;
+    # invoke-virtual {v0}, Lcom/eyewind/lib/core/config/SdkLocalConfig;->getUmengKey()Ljava/lang/String;
+    #
+    # move-result-object v0
 
-    move-result-object v0
-
+    const/4 v0,0x0
     if-eqz v0, :cond_0
 
     .line 3
@@ -1488,12 +1489,12 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/eyewind/lib/core/config/SdkLocalConfig;->getUmengPushSecret()Ljava/lang/String;
-
-    move-result-object v2
-
-    .line 6
-    invoke-static {p0, v0, v1, v2}, Lz1/d;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-virtual {v2}, Lcom/eyewind/lib/core/config/SdkLocalConfig;->getUmengPushSecret()Ljava/lang/String;
+    #
+    # move-result-object v2
+    #
+    # .line 6
+    # invoke-static {p0, v0, v1, v2}, Lz1/d;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1710,9 +1711,10 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/eyewind/lib/core/config/SdkLocalConfig;->getUmengKey()Ljava/lang/String;
-
-    move-result-object v0
+    # invoke-virtual {v0}, Lcom/eyewind/lib/core/config/SdkLocalConfig;->getUmengKey()Ljava/lang/String;
+    #
+    # move-result-object v0
+    const/4 v0,0x0
 
     if-eqz v0, :cond_0
 
@@ -1728,19 +1730,19 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/eyewind/lib/core/config/SdkLocalConfig;->getUmengKey()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {}, Ls1/a;->h()Lcom/eyewind/lib/core/config/SdkLocalConfig;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/eyewind/lib/core/config/SdkLocalConfig;->getChannel()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {p0, v0, v1}, Lz1/d;->e(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-virtual {v0}, Lcom/eyewind/lib/core/config/SdkLocalConfig;->getUmengKey()Ljava/lang/String;
+    #
+    # move-result-object v0
+    #
+    # invoke-static {}, Ls1/a;->h()Lcom/eyewind/lib/core/config/SdkLocalConfig;
+    #
+    # move-result-object v1
+    #
+    # invoke-virtual {v1}, Lcom/eyewind/lib/core/config/SdkLocalConfig;->getChannel()Ljava/lang/String;
+    #
+    # move-result-object v1
+    #
+    # invoke-static {p0, v0, v1}, Lz1/d;->e(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
